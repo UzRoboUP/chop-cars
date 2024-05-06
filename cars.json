@@ -1,0 +1,64 @@
+{
+  "cars": [
+    {
+      "brand": "Toyota",
+      "models": [
+        {
+          "name": "Corolla",
+          "type": "Sedan",
+          "price": 20000
+        },
+        {
+          "name": "Camry",
+          "type": "Sedan",
+          "price": 25000
+        },
+        {
+          "name": "RAV4",
+          "type": "SUV",
+          "price": 28000
+        }
+      ]
+    },
+    {
+      "brand": "Honda",
+      "models": [
+        {
+          "name": "Civic",
+          "type": "Sedan",
+          "price": 22000
+        },
+        {
+          "name": "Accord",
+          "type": "Sedan",
+          "price": 27000
+        },
+        {
+          "name": "CR-V",
+          "type": "SUV",
+          "price": 29000
+        }
+      ]
+    },
+    {
+      "brand": "Ford",
+      "models": [
+        {
+          "name": "Fiesta",
+          "type": "Hatchback",
+          "price": 18000
+        },
+        {
+          "name": "Focus",
+          "type": "Hatchback",
+          "price": 23000
+        },
+        {
+          "name": "Escape",
+          "type": "SUV",
+          "price": 30000
+        }
+      ]
+    }
+  ]
+}
