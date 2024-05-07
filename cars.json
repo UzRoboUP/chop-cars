@@ -57,7 +57,78 @@
           "name": "Escape",
           "type": "SUV",
           "price": 30000
-        }
+        },
+        {
+          "brand": "Chevrolet",
+          "models": [
+            {
+              "name": "Matiz",
+              "price": 300000
+            },
+            {
+              "name": "Spark",
+              "price": 300000
+            },
+            {
+              "name": "Nexia",
+              "price": 300000
+            },
+            {
+              "name": "Nexia 3",
+              "price": 400000
+            },
+            {
+              "name": "Lacetti",
+              "price": 400000 
+            }, 
+            {
+              "name": "Gentra",
+              "price": 400000 
+            }, 
+            {
+              "name": "Orlando",
+              "price": 400000 
+            }, 
+            {
+              "name": "Cobalt",
+              "price": 400000 
+            }, 
+            {
+              "name": "Onix",
+              "price": 400000 
+            }, 
+            {
+              "name": "Epica",
+              "price": 400000 
+            }, 
+            {
+              "name": "Malibu",
+              "price": 500000 
+            }, 
+            {
+              "name": "Tracker",
+              "price": 500000 
+            }, 
+            {
+              "name": "Tahoe",
+              "price": 500000 
+            }, 
+            {
+              "name": "Trailblazer",
+              "price": 500000 
+            }, 
+            {
+              "name": "Monza",
+              "price": 500000 
+            }, 
+            {
+              "name": "Equinox",
+              "price": 500000 
+            }, 
+            {
+              "name": "Captiva",
+              "price": 500000 
+            }
       ]
     }
   ]
