@@ -79,56 +79,58 @@
             },
             {
               "name": "Lacetti",
-              "price": 400000 
-            }, 
+              "price": 400000
+            },
             {
               "name": "Gentra",
-              "price": 400000 
-            }, 
+              "price": 400000
+            },
             {
               "name": "Orlando",
-              "price": 400000 
-            }, 
+              "price": 400000
+            },
             {
               "name": "Cobalt",
-              "price": 400000 
-            }, 
+              "price": 400000
+            },
             {
               "name": "Onix",
-              "price": 400000 
-            }, 
+              "price": 400000
+            },
             {
               "name": "Epica",
-              "price": 400000 
-            }, 
+              "price": 400000
+            },
             {
               "name": "Malibu",
-              "price": 500000 
-            }, 
+              "price": 500000
+            },
             {
               "name": "Tracker",
-              "price": 500000 
-            }, 
+              "price": 500000
+            },
             {
               "name": "Tahoe",
-              "price": 500000 
-            }, 
+              "price": 500000
+            },
             {
               "name": "Trailblazer",
-              "price": 500000 
-            }, 
+              "price": 500000
+            },
             {
               "name": "Monza",
-              "price": 500000 
-            }, 
+              "price": 500000
+            },
             {
               "name": "Equinox",
-              "price": 500000 
-            }, 
+              "price": 500000
+            },
             {
               "name": "Captiva",
-              "price": 500000 
+              "price": 500000
             }
+          ]
+        }
       ]
     }
   ]
