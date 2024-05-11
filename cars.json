@@ -163,23 +163,26 @@
         {
           "name": "Song Plus DM-I Champion",
           "price": 500000
+        }
+      ]
+    },
+    {
+      "brand": "ISUZU",
+      "models": [
+        {
+          "name": "SAZ HD50",
+          "price": 1000000
         },
         {
-          "brand": "ISUZU",
-          "models": [
-            {
-              "name": "SAZ HD50",
-              "price": 1000000
-            },
-            {
-              "name": "SAZ HC45",
-              "price": 1000000
-            },
-            {
-              "name": "SAZ LE60",
-              "price": 1000000
-            }
+          "name": "SAZ HC45",
+          "price": 1000000
+        },
+        {
+          "name": "SAZ LE60",
+          "price": 1000000
+        }
       ]
     }
   ]
 }
+
