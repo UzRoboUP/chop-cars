@@ -1,188 +1,5972 @@
 {
   "cars": [
-    {
-      "brand": "Toyota",
-      "models": [
-        {
-          "name": "Corolla",
-          "type": "Sedan",
-          "price": 20000
-        },
-        {
-          "name": "Camry",
-          "type": "Sedan",
-          "price": 25000
-        },
-        {
-          "name": "RAV4",
-          "type": "SUV",
-          "price": 28000
-        }
-      ]
-    },
-    {
-      "brand": "Honda",
-      "models": [
-        {
-          "name": "Civic",
-          "type": "Sedan",
-          "price": 22000
-        },
-        {
-          "name": "Accord",
-          "type": "Sedan",
-          "price": 27000
-        },
-        {
-          "name": "CR-V",
-          "type": "SUV",
-          "price": 29000
-        }
-      ]
-    },
-    {
-      "brand": "Ford",
-      "models": [
-        {
-          "name": "Fiesta",
-          "type": "Hatchback",
-          "price": 18000
-        },
-        {
-          "name": "Focus",
-          "type": "Hatchback",
-          "price": 23000
-        },
-        {
-          "name": "Escape",
-          "type": "SUV",
-          "price": 30000
-        }
-      ]
-    },
-    {
-      "brand": "Chevrolet",
-      "models": [
-        {
-          "name": "Matiz",
-          "price": 300000
-        },
-        {
-          "name": "Spark",
-          "price": 300000
-        },
-        {
-          "name": "Nexia",
-          "price": 300000
-        },
-        {
-          "name": "Nexia 3",
-          "price": 400000
-        },
-        {
-          "name": "Lacetti",
-          "price": 400000
-        },
-        {
-          "name": "Gentra",
-          "price": 400000
-        },
-        {
-          "name": "Orlando",
-          "price": 400000
-        },
-        {
-          "name": "Cobalt",
-          "price": 400000
-        },
-        {
-          "name": "Onix",
-          "price": 400000
-        },
-        {
-          "name": "Epica",
-          "price": 400000
-        },
-        {
-          "name": "Malibu",
-          "price": 500000
-        },
-        {
-          "name": "Tracker",
-          "price": 500000
-        },
-        {
-          "name": "Tahoe",
-          "price": 500000
-        },
-        {
-          "name": "Trailblazer",
-          "price": 500000
-        },
-        {
-          "name": "Monza",
-          "price": 500000
-        },
-        {
-          "name": "Equinox",
-          "price": 500000
-        },
-        {
-          "name": "Captiva",
-          "price": 500000
-        },
-        {
-          "name": "Damas",
-          "price": 400000
-        },
-        {
-          "name": "Labo",
-          "price": 400000
-        }
-      ]
-    },
-    {
-      "brand": "BYD",
-      "models": [
-        {
-          "name": "BYD E2",
-          "price": 300000
-        },
-        {
-          "name": "BYD HAN",
-          "price": 500000
-        },
-        {
-          "name": "BYD Chazor",
-          "price": 500000
-        },
-        {
-          "name": "Song Plus DM-I",
-          "price": 500000
-        },
-        {
-          "name": "Song Plus DM-I Champion",
-          "price": 500000
-        }
-      ]
-    },
-    {
-      "brand": "ISUZU",
-      "models": [
-        {
-          "name": "SAZ HD50",
-          "price": 1000000
-        },
-        {
-          "name": "SAZ HC45",
-          "price": 1000000
-        },
-        {
-          "name": "SAZ LE60",
-          "price": 1000000
-        }
-      ]
-    }
-  ]
+  {
+    "brand": "Chevrolet",
+    "models": [
+      {
+        "name": "Matiz",
+        "price": 300000
+      },
+      {
+        "name": "Spark",
+        "price": 300000
+      },
+      {
+        "name": "Nexia",
+        "price": 300000
+      },
+      {
+        "name": "Nexia 3",
+        "price": 400000
+      },
+      {
+        "name": "Lacetti",
+        "price": 400000
+      },
+      {
+        "name": "Gentra",
+        "price": 400000
+      },
+      {
+        "name": "Orlando",
+        "price": 400000
+      },
+      {
+        "name": "Cobalt",
+        "price": 400000
+      },
+      {
+        "name": "Onix",
+        "price": 400000
+      },
+      {
+        "name": "Epica",
+        "price": 400000
+      },
+      {
+        "name": "Malibu",
+        "price": 500000
+      },
+      {
+        "name": "Tracker",
+        "price": 500000
+      },
+      {
+        "name": "Tahoe",
+        "price": 500000
+      },
+      {
+        "name": "Trailblazer",
+        "price": 500000
+      },
+      {
+        "name": "Monza",
+        "price": 500000
+      },
+      {
+        "name": "Equinox",
+        "price": 500000
+      },
+      {
+        "name": "Captiva",
+        "price": 500000
+      },
+      {
+        "name": "Damas",
+        "price": 400000
+      },
+      {
+        "name": "Labo",
+        "price": 400000
+      },
+      {
+        "name": "2500",
+        "price": 200000
+      },
+      {
+        "name": "Alero",
+        "price": 200000
+      },
+      {
+        "name": "Astro",
+        "price": 200000
+      },
+      {
+        "name": "Avalanche",
+        "price": 200000
+      },
+      {
+        "name": "Aveo",
+        "price": 200000
+      },
+      {
+        "name": "Beretta",
+        "price": 200000
+      },
+      {
+        "name": "Blazer",
+        "price": 200000
+      },
+      {
+        "name": "C10",
+        "price": 200000
+      },
+      {
+        "name": "C1500",
+        "price": 200000
+      },
+      {
+        "name": "Camaro",
+        "price": 200000
+      },
+      {
+        "name": "Caprice",
+        "price": 200000
+      },
+      {
+        "name": "Cavalier",
+        "price": 200000
+      },
+      {
+        "name": "Chevelle",
+        "price": 200000
+      },
+      {
+        "name": "Chevy Van",
+        "price": 200000
+      },
+      {
+        "name": "Citation",
+        "price": 200000
+      },
+      {
+        "name": "Colorado",
+        "price": 200000
+      },
+      {
+        "name": "Corsica",
+        "price": 200000
+      },
+      {
+        "name": "Corvette",
+        "price": 200000
+      },
+      {
+        "name": "Cruze",
+        "price": 200000
+      },
+      {
+        "name": "El Camino",
+        "price": 200000
+      },
+      {
+        "name": "Evanda",
+        "price": 200000
+      },
+      {
+        "name": "Express",
+        "price": 200000
+      },
+      {
+        "name": "G",
+        "price": 200000
+      },
+      {
+        "name": "Geo storm",
+        "price": 200000
+      },
+      {
+        "name": "HHR",
+        "price": 200000
+      },
+      {
+        "name": "Impala",
+        "price": 200000
+      },
+      {
+        "name": "K1500",
+        "price": 200000
+      },
+      {
+        "name": "K30",
+        "price": 200000
+      },
+      {
+        "name": "Kalos",
+        "price": 200000
+      },
+      {
+        "name": "Lanos",
+        "price": 200000
+      },
+      {
+        "name": "Lumina",
+        "price": 200000
+      },
+      {
+        "name": "Metro",
+        "price": 200000
+      },
+      {
+        "name": "Monte Carlo",
+        "price": 200000
+      },
+      {
+        "name": "Niva",
+        "price": 200000
+      },
+      {
+        "name": "Nubira",
+        "price": 200000
+      },
+      {
+        "name": "Prizm",
+        "price": 200000
+      },
+      {
+        "name": "Rezzo",
+        "price": 200000
+      },
+      {
+        "name": "S-10",
+        "price": 200000
+      },
+      {
+        "name": "Savana",
+        "price": 200000
+      },
+      {
+        "name": "Silverado",
+        "price": 200000
+      },
+      {
+        "name": "SSR",
+        "price": 200000
+      },
+      {
+        "name": "Suburban",
+        "price": 200000
+      },
+      {
+        "name": "Tacuma",
+        "price": 200000
+      },
+      {
+        "name": "Trans Sport",
+        "price": 200000
+      },
+      {
+        "name": "Uplander",
+        "price": 200000
+      },
+      {
+        "name": "Van",
+        "price": 200000
+      },
+      {
+        "name": "Venture",
+        "price": 200000
+      },
+      {
+        "name": "Viva",
+        "price": 200000
+      },
+      {
+        "name": "Bel Air",
+        "price": 200000
+      },
+      {
+        "name": "Classic",
+        "price": 200000
+      },
+      {
+        "name": "Corsa",
+        "price": 200000
+      },
+      {
+        "name": "LUV D-Max",
+        "price": 200000
+      },
+      {
+        "name": "Omega",
+        "price": 200000
+      },
+      {
+        "name": "Zafira",
+        "price": 200000
+      },
+      {
+        "name": "Celta",
+        "price": 200000
+      },
+      {
+        "name": "Starcraft",
+        "price": 200000
+      },
+      {
+        "name": "Tavera",
+        "price": 200000
+      },
+      {
+        "name": "Vectra",
+        "price": 200000
+      },
+      {
+        "name": "Menlo",
+        "price": 200000
+      }
+    ],
+    "id": "28fb"
+  },
+  {
+    "brand": "BYD",
+    "models": [
+      {
+        "name": "BYD E2",
+        "price": 300000
+      },
+      {
+        "name": "BYD HAN",
+        "price": 500000
+      },
+      {
+        "name": "BYD Chazor",
+        "price": 500000
+      },
+      {
+        "name": "Song Plus DM-I",
+        "price": 500000
+      },
+      {
+        "name": "Song Plus DM-I Champion",
+        "price": 500000
+      },
+      {
+        "name": "Han",
+        "price": 200000
+      },
+      {
+        "name": "Tang",
+        "price": 200000
+      },
+      {
+        "name": "T3",
+        "price": 200000
+      }
+    ],
+    "id": "ef90"
+  },
+  {
+    "brand": "Daewoo",
+
+    "models": [
+      {
+        "name": "Arcadia",
+        "price": 200000
+      },
+      {
+        "name": "Damas",
+        "price": 200000
+      },
+      {
+        "name": "Espero",
+        "price": 200000
+      },
+      {
+        "name": "Evanda",
+        "price": 200000
+      },
+      {
+        "name": "Kalos",
+        "price": 200000
+      },
+      {
+        "name": "Korando",
+        "price": 200000
+      },
+      {
+        "name": "Lacetti",
+        "price": 200000
+      },
+      {
+        "name": "Lanos",
+        "price": 200000
+      },
+      {
+        "name": "Leganza",
+        "price": 200000
+      },
+      {
+        "name": "Magnus",
+        "price": 200000
+      },
+      {
+        "name": "Matiz",
+        "price": 200000
+      },
+      {
+        "name": "Musso",
+        "price": 200000
+      },
+      {
+        "name": "Nexia",
+        "price": 200000
+      },
+      {
+        "name": "Nubira",
+        "price": 200000
+      },
+      {
+        "name": "Polonez",
+        "price": 200000
+      },
+      {
+        "name": "Prince",
+        "price": 200000
+      },
+      {
+        "name": "Racer",
+        "price": 200000
+      },
+      {
+        "name": "Sens",
+        "price": 200000
+      },
+      {
+        "name": "Tico",
+        "price": 200000
+      },
+      {
+        "name": "Winstorm",
+        "price": 200000
+      },
+      {
+        "name": "Charman",
+        "price": 200000
+      },
+      {
+        "name": "G2X",
+        "price": 200000
+      },
+      {
+        "name": "Gentra",
+        "price": 200000
+      },
+      {
+        "name": "LE Mans",
+        "price": 200000
+      },
+      {
+        "name": "Rezzo",
+        "price": 200000
+      },
+      {
+        "name": "Tacuma",
+        "price": 200000
+      },
+      {
+        "name": "Tosca",
+        "price": 200000
+      },
+      {
+        "name": "Condor",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "BAIC",
+
+    "models": [
+      {
+        "name": "EC3",
+        "price": 200000
+      },
+      {
+        "name": "EU5",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "models": [
+      {
+        "name": "Corolla",
+        "type": "Sedan",
+        "price": 20000
+      },
+      {
+        "name": "Camry",
+        "type": "Sedan",
+        "price": 25000
+      },
+      {
+        "name": "RAV4",
+        "type": "SUV",
+        "price": 28000
+      },
+      {
+        "name": "4runner",
+        "price": 200000
+      },
+      {
+        "name": "Allex",
+        "price": 200000
+      },
+      {
+        "name": "Allion",
+        "price": 200000
+      },
+      {
+        "name": "Alphard",
+        "price": 200000
+      },
+      {
+        "name": "Altezza",
+        "price": 200000
+      },
+      {
+        "name": "Aristo",
+        "price": 200000
+      },
+      {
+        "name": "Aurion",
+        "price": 200000
+      },
+      {
+        "name": "Auris",
+        "price": 200000
+      },
+      {
+        "name": "Avalon",
+        "price": 200000
+      },
+      {
+        "name": "Avensis",
+        "price": 200000
+      },
+      {
+        "name": "Aygo",
+        "price": 200000
+      },
+      {
+        "name": "BB",
+        "price": 200000
+      },
+      {
+        "name": "Blizzard",
+        "price": 200000
+      },
+      {
+        "name": "Brevis",
+        "price": 200000
+      },
+      {
+        "name": "Caldina",
+        "price": 200000
+      },
+      {
+        "name": "Cami",
+        "price": 200000
+      },
+      {
+        "name": "Carib",
+        "price": 200000
+      },
+      {
+        "name": "Carina",
+        "price": 200000
+      },
+      {
+        "name": "Cavalier",
+        "price": 200000
+      },
+      {
+        "name": "Celica",
+        "price": 200000
+      },
+      {
+        "name": "Century",
+        "price": 200000
+      },
+      {
+        "name": "Chaser",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Rumion",
+        "price": 200000
+      },
+      {
+        "name": "Corona",
+        "price": 200000
+      },
+      {
+        "name": "Corsa",
+        "price": 200000
+      },
+      {
+        "name": "Cressida",
+        "price": 200000
+      },
+      {
+        "name": "Cresta",
+        "price": 200000
+      },
+      {
+        "name": "Crown",
+        "price": 200000
+      },
+      {
+        "name": "Curren",
+        "price": 200000
+      },
+      {
+        "name": "Cynos",
+        "price": 200000
+      },
+      {
+        "name": "Duet",
+        "price": 200000
+      },
+      {
+        "name": "Echo",
+        "price": 200000
+      },
+      {
+        "name": "Estima",
+        "price": 200000
+      },
+      {
+        "name": "FJ Cruiser",
+        "price": 200000
+      },
+      {
+        "name": "Fortuner",
+        "price": 200000
+      },
+      {
+        "name": "Funcargo",
+        "price": 200000
+      },
+      {
+        "name": "Gaia",
+        "price": 200000
+      },
+      {
+        "name": "Grand Hiace",
+        "price": 200000
+      },
+      {
+        "name": "Granvia",
+        "price": 200000
+      },
+      {
+        "name": "Harrier",
+        "price": 200000
+      },
+      {
+        "name": "Hiace",
+        "price": 200000
+      },
+      {
+        "name": "Highlander",
+        "price": 200000
+      },
+      {
+        "name": "Hilux",
+        "price": 200000
+      },
+      {
+        "name": "Ipsum",
+        "price": 200000
+      },
+      {
+        "name": "Isis",
+        "price": 200000
+      },
+      {
+        "name": "Ist",
+        "price": 200000
+      },
+      {
+        "name": "Kluger",
+        "price": 200000
+      },
+      {
+        "name": "Land Cruiser",
+        "price": 200000
+      },
+      {
+        "name": "Lite Ace",
+        "price": 200000
+      },
+      {
+        "name": "Mark II",
+        "price": 200000
+      },
+      {
+        "name": "Mark X",
+        "price": 200000
+      },
+      {
+        "name": "MasterAce",
+        "price": 200000
+      },
+      {
+        "name": "Matrix",
+        "price": 200000
+      },
+      {
+        "name": "Mega Cruiser",
+        "price": 200000
+      },
+      {
+        "name": "MR 2",
+        "price": 200000
+      },
+      {
+        "name": "MR-S",
+        "price": 200000
+      },
+      {
+        "name": "Nadia",
+        "price": 200000
+      },
+      {
+        "name": "Noah",
+        "price": 200000
+      },
+      {
+        "name": "Opa",
+        "price": 200000
+      },
+      {
+        "name": "Origin",
+        "price": 200000
+      },
+      {
+        "name": "Paseo",
+        "price": 200000
+      },
+      {
+        "name": "Passo",
+        "price": 200000
+      },
+      {
+        "name": "Picnic",
+        "price": 200000
+      },
+      {
+        "name": "Platz",
+        "price": 200000
+      },
+      {
+        "name": "Porte",
+        "price": 200000
+      },
+      {
+        "name": "Premio",
+        "price": 200000
+      },
+      {
+        "name": "Previa",
+        "price": 200000
+      },
+      {
+        "name": "Prius",
+        "price": 200000
+      },
+      {
+        "name": "Probox",
+        "price": 200000
+      },
+      {
+        "name": "Progres",
+        "price": 200000
+      },
+      {
+        "name": "Pronard",
+        "price": 200000
+      },
+      {
+        "name": "Ractis",
+        "price": 200000
+      },
+      {
+        "name": "Raum",
+        "price": 200000
+      },
+      {
+        "name": "RAV 4",
+        "price": 200000
+      },
+      {
+        "name": "Regius",
+        "price": 200000
+      },
+      {
+        "name": "Scepter",
+        "price": 200000
+      },
+      {
+        "name": "Sequoia",
+        "price": 200000
+      },
+      {
+        "name": "Sera",
+        "price": 200000
+      },
+      {
+        "name": "Sienna",
+        "price": 200000
+      },
+      {
+        "name": "Sienta",
+        "price": 200000
+      },
+      {
+        "name": "Soarer",
+        "price": 200000
+      },
+      {
+        "name": "Sparky",
+        "price": 200000
+      },
+      {
+        "name": "Sprinter",
+        "price": 200000
+      },
+      {
+        "name": "Starlet",
+        "price": 200000
+      },
+      {
+        "name": "Succeed",
+        "price": 200000
+      },
+      {
+        "name": "Supra",
+        "price": 200000
+      },
+      {
+        "name": "Tacoma",
+        "price": 200000
+      },
+      {
+        "name": "Tercel",
+        "price": 200000
+      },
+      {
+        "name": "Tundra",
+        "price": 200000
+      },
+      {
+        "name": "Venza",
+        "price": 200000
+      },
+      {
+        "name": "Verossa",
+        "price": 200000
+      },
+      {
+        "name": "Vista",
+        "price": 200000
+      },
+      {
+        "name": "Vitz",
+        "price": 200000
+      },
+      {
+        "name": "Voltz",
+        "price": 200000
+      },
+      {
+        "name": "Voxy",
+        "price": 200000
+      },
+      {
+        "name": "Will",
+        "price": 200000
+      },
+      {
+        "name": "Windom",
+        "price": 200000
+      },
+      {
+        "name": "Wish",
+        "price": 200000
+      },
+      {
+        "name": "Yaris",
+        "price": 200000
+      },
+      {
+        "name": "Belta",
+        "price": 200000
+      },
+      {
+        "name": "Blade",
+        "price": 200000
+      },
+      {
+        "name": "IQ",
+        "price": 200000
+      },
+      {
+        "name": "Rush",
+        "price": 200000
+      },
+      {
+        "name": "Solara",
+        "price": 200000
+      },
+      {
+        "name": "Verso",
+        "price": 200000
+      },
+      {
+        "name": "Celsior",
+        "price": 200000
+      },
+      {
+        "name": "Innova",
+        "price": 200000
+      },
+      {
+        "name": "Soluna",
+        "price": 200000
+      },
+      {
+        "name": "Town Ace",
+        "price": 200000
+      },
+      {
+        "name": "Urban Cruiser",
+        "price": 200000
+      },
+      {
+        "name": "Vellfire",
+        "price": 200000
+      },
+      {
+        "name": "Vios",
+        "price": 200000
+      },
+      {
+        "name": "Avensis Verso",
+        "price": 200000
+      },
+      {
+        "name": "Avensis Wagon",
+        "price": 200000
+      },
+      {
+        "name": "Caldina Van",
+        "price": 200000
+      },
+      {
+        "name": "Camry Gracia",
+        "price": 200000
+      },
+      {
+        "name": "Camry Gracia Wagon",
+        "price": 200000
+      },
+      {
+        "name": "Camry Prominent",
+        "price": 200000
+      },
+      {
+        "name": "Carina 2",
+        "price": 200000
+      },
+      {
+        "name": "Carina E",
+        "price": 200000
+      },
+      {
+        "name": "Carina ED",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Axio",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Ceres",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Fielder",
+        "price": 200000
+      },
+      {
+        "name": "Corolla II",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Levin",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Linea",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Runx",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Spacio",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Verso",
+        "price": 200000
+      },
+      {
+        "name": "Corolla Wagon",
+        "price": 200000
+      },
+      {
+        "name": "Corona Premio",
+        "price": 200000
+      },
+      {
+        "name": "Crown Majesta",
+        "price": 200000
+      },
+      {
+        "name": "Estima Emina",
+        "price": 200000
+      },
+      {
+        "name": "Estima Lucida",
+        "price": 200000
+      },
+      {
+        "name": "Exiv",
+        "price": 200000
+      },
+      {
+        "name": "Hiace Regius",
+        "price": 200000
+      },
+      {
+        "name": "Hilux Pick Up",
+        "price": 200000
+      },
+      {
+        "name": "Hilux Surf",
+        "price": 200000
+      },
+      {
+        "name": "Land Cruiser 100",
+        "price": 200000
+      },
+      {
+        "name": "Land Cruiser 105",
+        "price": 200000
+      },
+      {
+        "name": "Land Cruiser 200",
+        "price": 200000
+      },
+      {
+        "name": "Land Cruiser 70",
+        "price": 200000
+      },
+      {
+        "name": "Land Cruiser 80",
+        "price": 200000
+      },
+      {
+        "name": "Land Cruiser 90",
+        "price": 200000
+      },
+      {
+        "name": "Land Cruiser Prado",
+        "price": 200000
+      },
+      {
+        "name": "Lite Ace Noah",
+        "price": 200000
+      },
+      {
+        "name": "Mark II Qualis",
+        "price": 200000
+      },
+      {
+        "name": "Mark II Wagon Blit",
+        "price": 200000
+      },
+      {
+        "name": "Master",
+        "price": 200000
+      },
+      {
+        "name": "Master Ace Surf",
+        "price": 200000
+      },
+      {
+        "name": "Prado",
+        "price": 200000
+      },
+      {
+        "name": "Sprinter Carib",
+        "price": 200000
+      },
+      {
+        "name": "Sprinter Marino",
+        "price": 200000
+      },
+      {
+        "name": "Sprinter Trueno",
+        "price": 200000
+      },
+      {
+        "name": "Town Ace Noah",
+        "price": 200000
+      },
+      {
+        "name": "Land Cruiser 150",
+        "price": 200000
+      },
+      {
+        "name": "C-HR",
+        "price": 200000
+      }
+    ],
+    "id": "3cf3"
+  },
+  {
+    "brand": "Honda",
+    "models": [
+      {
+        "name": "Civic",
+        "type": "Sedan",
+        "price": 22000
+      },
+      {
+        "name": "Accord",
+        "type": "Sedan",
+        "price": 27000
+      },
+      {
+        "name": "CR-V",
+        "type": "SUV",
+        "price": 29000
+      }
+    ],
+    "id": "b157"
+  },
+  {
+    "brand": "Ford",
+    "models": [
+      {
+        "name": "Fiesta",
+        "type": "Hatchback",
+        "price": 18000
+      },
+      {
+        "name": "Focus",
+        "type": "Hatchback",
+        "price": 23000
+      },
+      {
+        "name": "Escape",
+        "type": "SUV",
+        "price": 30000
+      },
+      {
+        "name": "Aerostar",
+        "price": 200000
+      },
+      {
+        "name": "Bronco",
+        "price": 200000
+      },
+      {
+        "name": "C-Max",
+        "price": 200000
+      },
+      {
+        "name": "Capri",
+        "price": 200000
+      },
+      {
+        "name": "Cougar",
+        "price": 200000
+      },
+      {
+        "name": "Courier",
+        "price": 200000
+      },
+      {
+        "name": "Crown Victoria",
+        "price": 200000
+      },
+      {
+        "name": "Econoline",
+        "price": 200000
+      },
+      {
+        "name": "Econovan",
+        "price": 200000
+      },
+      {
+        "name": "Escort",
+        "price": 200000
+      },
+      {
+        "name": "Excursion",
+        "price": 200000
+      },
+      {
+        "name": "Expedition",
+        "price": 200000
+      },
+      {
+        "name": "Explorer",
+        "price": 200000
+      },
+      {
+        "name": "Express",
+        "price": 200000
+      },
+      {
+        "name": "F-150",
+        "price": 200000
+      },
+      {
+        "name": "F-250",
+        "price": 200000
+      },
+      {
+        "name": "F-350",
+        "price": 200000
+      },
+      {
+        "name": "Fairlane",
+        "price": 200000
+      },
+      {
+        "name": "Falcon",
+        "price": 200000
+      },
+      {
+        "name": "Focus C-Max",
+        "price": 200000
+      },
+      {
+        "name": "Freestyle",
+        "price": 200000
+      },
+      {
+        "name": "Fusion",
+        "price": 200000
+      },
+      {
+        "name": "Galaxy",
+        "price": 200000
+      },
+      {
+        "name": "Granada",
+        "price": 200000
+      },
+      {
+        "name": "GT",
+        "price": 200000
+      },
+      {
+        "name": "Ka",
+        "price": 200000
+      },
+      {
+        "name": "Maverick",
+        "price": 200000
+      },
+      {
+        "name": "Mercury",
+        "price": 200000
+      },
+      {
+        "name": "Mondeo",
+        "price": 200000
+      },
+      {
+        "name": "Mustang",
+        "price": 200000
+      },
+      {
+        "name": "Orion",
+        "price": 200000
+      },
+      {
+        "name": "Probe",
+        "price": 200000
+      },
+      {
+        "name": "Puma",
+        "price": 200000
+      },
+      {
+        "name": "Ranger",
+        "price": 200000
+      },
+      {
+        "name": "S-Max",
+        "price": 200000
+      },
+      {
+        "name": "Scorpio",
+        "price": 200000
+      },
+      {
+        "name": "Sierra",
+        "price": 200000
+      },
+      {
+        "name": "Streetka",
+        "price": 200000
+      },
+      {
+        "name": "Taunus",
+        "price": 200000
+      },
+      {
+        "name": "Taurus",
+        "price": 200000
+      },
+      {
+        "name": "Thunderbird",
+        "price": 200000
+      },
+      {
+        "name": "Tourneo",
+        "price": 200000
+      },
+      {
+        "name": "Tourneo Connect",
+        "price": 200000
+      },
+      {
+        "name": "Transit",
+        "price": 200000
+      },
+      {
+        "name": "Windstar",
+        "price": 200000
+      },
+      {
+        "name": "Aspire",
+        "price": 200000
+      },
+      {
+        "name": "Consul",
+        "price": 200000
+      },
+      {
+        "name": "Contour",
+        "price": 200000
+      },
+      {
+        "name": "Edge",
+        "price": 200000
+      },
+      {
+        "name": "Festiva",
+        "price": 200000
+      },
+      {
+        "name": "Five Hundred",
+        "price": 200000
+      },
+      {
+        "name": "Flex",
+        "price": 200000
+      },
+      {
+        "name": "Freestar",
+        "price": 200000
+      },
+      {
+        "name": "Ixion",
+        "price": 200000
+      },
+      {
+        "name": "Kuga",
+        "price": 200000
+      },
+      {
+        "name": "Shelby",
+        "price": 200000
+      },
+      {
+        "name": "Sport Trac",
+        "price": 200000
+      },
+      {
+        "name": "Tempo",
+        "price": 200000
+      },
+      {
+        "name": "Focus ST",
+        "price": 200000
+      },
+      {
+        "name": "Everest",
+        "price": 200000
+      },
+      {
+        "name": "Telstar",
+        "price": 200000
+      }
+    ],
+    "id": "b645"
+  },
+  {
+    "brand": "ISUZU",
+    "models": [
+      {
+        "name": "SAZ HD50",
+        "price": 1000000
+      },
+      {
+        "name": "SAZ HC45",
+        "price": 1000000
+      },
+      {
+        "name": "SAZ LE60",
+        "price": 1000000
+      }
+    ],
+    "id": "a328"
+  },
+  {
+    "brand": "Audi",
+
+    "models": [
+      {
+        "name": "100",
+        "price": 200000
+      },
+      {
+        "name": "200",
+        "price": 200000
+      },
+      {
+        "name": "80",
+        "price": 200000
+      },
+      {
+        "name": "90",
+        "price": 200000
+      },
+      {
+        "name": "А2",
+        "price": 200000
+      },
+      {
+        "name": "А3",
+        "price": 200000
+      },
+      {
+        "name": "А4",
+        "price": 200000
+      },
+      {
+        "name": "А5",
+        "price": 200000
+      },
+      {
+        "name": "А6",
+        "price": 200000
+      },
+      {
+        "name": "A6 Allroad",
+        "price": 200000
+      },
+      {
+        "name": "А8",
+        "price": 200000
+      },
+      {
+        "name": "Allroad quattro",
+        "price": 200000
+      },
+      {
+        "name": "Cabriolet",
+        "price": 200000
+      },
+      {
+        "name": "Coupe",
+        "price": 200000
+      },
+      {
+        "name": "Q5",
+        "price": 200000
+      },
+      {
+        "name": "Quattro",
+        "price": 200000
+      },
+      {
+        "name": "R8",
+        "price": 200000
+      },
+      {
+        "name": "RS2",
+        "price": 200000
+      },
+      {
+        "name": "RS4",
+        "price": 200000
+      },
+      {
+        "name": "RS6",
+        "price": 200000
+      },
+      {
+        "name": "S2",
+        "price": 200000
+      },
+      {
+        "name": "S3",
+        "price": 200000
+      },
+      {
+        "name": "S4",
+        "price": 200000
+      },
+      {
+        "name": "S5",
+        "price": 200000
+      },
+      {
+        "name": "S6",
+        "price": 200000
+      },
+      {
+        "name": "S8",
+        "price": 200000
+      },
+      {
+        "name": "TT",
+        "price": 200000
+      },
+      {
+        "name": "TTS",
+        "price": 200000
+      },
+      {
+        "name": "V8",
+        "price": 200000
+      },
+      {
+        "name": "A1",
+        "price": 200000
+      },
+      {
+        "name": "Q7",
+        "price": 200000
+      },
+      {
+        "name": "NSU RO 80",
+        "price": 200000
+      }
+    ]
+  },
+
+  {
+    "brand": "(БМВ)",
+
+    "models": [
+      {
+        "name": "116",
+        "price": 200000
+      },
+      {
+        "name": "118",
+        "price": 200000
+      },
+      {
+        "name": "120",
+        "price": 200000
+      },
+      {
+        "name": "130",
+        "price": 200000
+      },
+      {
+        "name": "135",
+        "price": 200000
+      },
+      {
+        "name": "315",
+        "price": 200000
+      },
+      {
+        "name": "316",
+        "price": 200000
+      },
+      {
+        "name": "318",
+        "price": 200000
+      },
+      {
+        "name": "320",
+        "price": 200000
+      },
+      {
+        "name": "323",
+        "price": 200000
+      },
+      {
+        "name": "324",
+        "price": 200000
+      },
+      {
+        "name": "325",
+        "price": 200000
+      },
+      {
+        "name": "328",
+        "price": 200000
+      },
+      {
+        "name": "330",
+        "price": 200000
+      },
+      {
+        "name": "335",
+        "price": 200000
+      },
+      {
+        "name": "518",
+        "price": 200000
+      },
+      {
+        "name": "520",
+        "price": 200000
+      },
+      {
+        "name": "523",
+        "price": 200000
+      },
+      {
+        "name": "524",
+        "price": 200000
+      },
+      {
+        "name": "525",
+        "price": 200000
+      },
+      {
+        "name": "528",
+        "price": 200000
+      },
+      {
+        "name": "530",
+        "price": 200000
+      },
+      {
+        "name": "535",
+        "price": 200000
+      },
+      {
+        "name": "540",
+        "price": 200000
+      },
+      {
+        "name": "545",
+        "price": 200000
+      },
+      {
+        "name": "550",
+        "price": 200000
+      },
+      {
+        "name": "628",
+        "price": 200000
+      },
+      {
+        "name": "630",
+        "price": 200000
+      },
+      {
+        "name": "633",
+        "price": 200000
+      },
+      {
+        "name": "635",
+        "price": 200000
+      },
+      {
+        "name": "645",
+        "price": 200000
+      },
+      {
+        "name": "650",
+        "price": 200000
+      },
+      {
+        "name": "725",
+        "price": 200000
+      },
+      {
+        "name": "728",
+        "price": 200000
+      },
+      {
+        "name": "730",
+        "price": 200000
+      },
+      {
+        "name": "732",
+        "price": 200000
+      },
+      {
+        "name": "735",
+        "price": 200000
+      },
+      {
+        "name": "740",
+        "price": 200000
+      },
+      {
+        "name": "745",
+        "price": 200000
+      },
+      {
+        "name": "750",
+        "price": 200000
+      },
+      {
+        "name": "760",
+        "price": 200000
+      },
+      {
+        "name": "840",
+        "price": 200000
+      },
+      {
+        "name": "850",
+        "price": 200000
+      },
+      {
+        "name": "M1",
+        "price": 200000
+      },
+      {
+        "name": "M3",
+        "price": 200000
+      },
+      {
+        "name": "M5",
+        "price": 200000
+      },
+      {
+        "name": "M6",
+        "price": 200000
+      },
+      {
+        "name": "X3",
+        "price": 200000
+      },
+      {
+        "name": "X5",
+        "price": 200000
+      },
+      {
+        "name": "X6",
+        "price": 200000
+      },
+      {
+        "name": "Z1",
+        "price": 200000
+      },
+      {
+        "name": "Z3",
+        "price": 200000
+      },
+      {
+        "name": "Z3M",
+        "price": 200000
+      },
+      {
+        "name": "Z4",
+        "price": 200000
+      },
+      {
+        "name": "Z4M",
+        "price": 200000
+      },
+      {
+        "name": "Z8",
+        "price": 200000
+      },
+      {
+        "name": "125",
+        "price": 200000
+      },
+      {
+        "name": "X1",
+        "price": 200000
+      },
+      {
+        "name": "X5 M",
+        "price": 200000
+      },
+      {
+        "name": "X6 M",
+        "price": 200000
+      },
+      {
+        "name": "Gran Turismo",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Denza",
+
+    "models": [
+      {
+        "name": "500",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Fiat",
+
+    "models": [
+      {
+        "name": "124",
+        "price": 200000
+      },
+      {
+        "name": "126",
+        "price": 200000
+      },
+      {
+        "name": "127",
+        "price": 200000
+      },
+      {
+        "name": "130",
+        "price": 200000
+      },
+      {
+        "name": "131",
+        "price": 200000
+      },
+      {
+        "name": "500",
+        "price": 200000
+      },
+      {
+        "name": "Albea",
+        "price": 200000
+      },
+      {
+        "name": "Barchetta",
+        "price": 200000
+      },
+      {
+        "name": "Brava",
+        "price": 200000
+      },
+      {
+        "name": "Bravo",
+        "price": 200000
+      },
+      {
+        "name": "Cinquecento",
+        "price": 200000
+      },
+      {
+        "name": "Coupe",
+        "price": 200000
+      },
+      {
+        "name": "Croma",
+        "price": 200000
+      },
+      {
+        "name": "Dino",
+        "price": 200000
+      },
+      {
+        "name": "Doblo",
+        "price": 200000
+      },
+      {
+        "name": "Doblo Cargo",
+        "price": 200000
+      },
+      {
+        "name": "Doblo Combi",
+        "price": 200000
+      },
+      {
+        "name": "Doblo Panorama",
+        "price": 200000
+      },
+      {
+        "name": "Ducato",
+        "price": 200000
+      },
+      {
+        "name": "Fiorino",
+        "price": 200000
+      },
+      {
+        "name": "Grande Punto",
+        "price": 200000
+      },
+      {
+        "name": "Idea",
+        "price": 200000
+      },
+      {
+        "name": "Linea",
+        "price": 200000
+      },
+      {
+        "name": "Marea",
+        "price": 200000
+      },
+      {
+        "name": "Marengo",
+        "price": 200000
+      },
+      {
+        "name": "Multipla",
+        "price": 200000
+      },
+      {
+        "name": "Palio",
+        "price": 200000
+      },
+      {
+        "name": "Panda",
+        "price": 200000
+      },
+      {
+        "name": "Punto",
+        "price": 200000
+      },
+      {
+        "name": "Regata",
+        "price": 200000
+      },
+      {
+        "name": "Ritmo",
+        "price": 200000
+      },
+      {
+        "name": "Scudo",
+        "price": 200000
+      },
+      {
+        "name": "Scudo Combi",
+        "price": 200000
+      },
+      {
+        "name": "Sedici",
+        "price": 200000
+      },
+      {
+        "name": "Seicento",
+        "price": 200000
+      },
+      {
+        "name": "Spider Europa",
+        "price": 200000
+      },
+      {
+        "name": "Stilo",
+        "price": 200000
+      },
+      {
+        "name": "Strada",
+        "price": 200000
+      },
+      {
+        "name": "Tempra",
+        "price": 200000
+      },
+      {
+        "name": "Tipo",
+        "price": 200000
+      },
+      {
+        "name": "Ulysse",
+        "price": 200000
+      },
+      {
+        "name": "Uno",
+        "price": 200000
+      },
+      {
+        "name": "X 1/9",
+        "price": 200000
+      },
+      {
+        "name": "128",
+        "price": 200000
+      },
+      {
+        "name": "132",
+        "price": 200000
+      },
+      {
+        "name": "600",
+        "price": 200000
+      },
+      {
+        "name": "Argenta",
+        "price": 200000
+      },
+      {
+        "name": "Duna",
+        "price": 200000
+      },
+      {
+        "name": "Siena",
+        "price": 200000
+      },
+      {
+        "name": "238",
+        "price": 200000
+      },
+      {
+        "name": "900 T/E",
+        "price": 200000
+      },
+      {
+        "name": "New 500",
+        "price": 200000
+      },
+      {
+        "name": "Qubo",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "GAC",
+
+    "models": [
+      {
+        "name": "Aion V",
+        "price": 200000
+      },
+      {
+        "name": "GE3",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Haval",
+
+    "models": [
+      {
+        "name": "H2",
+        "price": 200000
+      },
+      {
+        "name": "H6",
+        "price": 200000
+      },
+      {
+        "name": "H9",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Hyundai",
+
+    "models": [
+      {
+        "name": "Accent",
+        "price": 200000
+      },
+      {
+        "name": "Atos",
+        "price": 200000
+      },
+      {
+        "name": "Avante",
+        "price": 200000
+      },
+      {
+        "name": "Centennial",
+        "price": 200000
+      },
+      {
+        "name": "Coupe",
+        "price": 200000
+      },
+      {
+        "name": "Dynasty",
+        "price": 200000
+      },
+      {
+        "name": "Elantra",
+        "price": 200000
+      },
+      {
+        "name": "Galloper",
+        "price": 200000
+      },
+      {
+        "name": "Genesis",
+        "price": 200000
+      },
+      {
+        "name": "Getz",
+        "price": 200000
+      },
+      {
+        "name": "Grandeur",
+        "price": 200000
+      },
+      {
+        "name": "H-1 starex",
+        "price": 200000
+      },
+      {
+        "name": "H 100",
+        "price": 200000
+      },
+      {
+        "name": "H 200",
+        "price": 200000
+      },
+      {
+        "name": "i30",
+        "price": 200000
+      },
+      {
+        "name": "Lavita",
+        "price": 200000
+      },
+      {
+        "name": "Lantra",
+        "price": 200000
+      },
+      {
+        "name": "Marcia",
+        "price": 200000
+      },
+      {
+        "name": "Matrix",
+        "price": 200000
+      },
+      {
+        "name": "NF",
+        "price": 200000
+      },
+      {
+        "name": "Pony",
+        "price": 200000
+      },
+      {
+        "name": "S-coupe",
+        "price": 200000
+      },
+      {
+        "name": "Santa FE",
+        "price": 200000
+      },
+      {
+        "name": "Santamo",
+        "price": 200000
+      },
+      {
+        "name": "Sonata",
+        "price": 200000
+      },
+      {
+        "name": "Stellar",
+        "price": 200000
+      },
+      {
+        "name": "Terracan",
+        "price": 200000
+      },
+      {
+        "name": "Tiburon",
+        "price": 200000
+      },
+      {
+        "name": "Trajet",
+        "price": 200000
+      },
+      {
+        "name": "Tucson",
+        "price": 200000
+      },
+      {
+        "name": "Tuscani",
+        "price": 200000
+      },
+      {
+        "name": "Veracruz",
+        "price": 200000
+      },
+      {
+        "name": "Verna",
+        "price": 200000
+      },
+      {
+        "name": "XG",
+        "price": 200000
+      },
+      {
+        "name": "Equus",
+        "price": 200000
+      },
+      {
+        "name": "i10",
+        "price": 200000
+      },
+      {
+        "name": "i20",
+        "price": 200000
+      },
+      {
+        "name": "ix35",
+        "price": 200000
+      },
+      {
+        "name": "ix55",
+        "price": 200000
+      },
+      {
+        "name": "Porter",
+        "price": 200000
+      },
+      {
+        "name": "Solaris",
+        "price": 200000
+      },
+      {
+        "name": "Starex",
+        "price": 200000
+      },
+      {
+        "name": "Excel",
+        "price": 200000
+      },
+      {
+        "name": "Grace",
+        "price": 200000
+      },
+      {
+        "name": "Palisade",
+        "price": 200000
+      },
+      {
+        "name": "Creta",
+        "price": 200000
+      },
+      {
+        "name": "Ioniq",
+        "price": 200000
+      },
+      {
+        "name": "Grand Starex",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Isuzu",
+
+    "models": [
+      {
+        "name": "D-Max Irbis",
+        "price": 200000
+      },
+      {
+        "name": "D-Max Oksus",
+        "price": 200000
+      },
+      {
+        "name": "D-Max Sahar",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "JAC",
+
+    "models": [
+      {
+        "name": "S1",
+        "price": 200000
+      },
+      {
+        "name": "S2",
+        "price": 200000
+      },
+      {
+        "name": "S3",
+        "price": 200000
+      },
+      {
+        "name": "S5",
+        "price": 200000
+      },
+      {
+        "name": "S7",
+        "price": 200000
+      },
+      {
+        "name": "M3",
+        "price": 200000
+      },
+      {
+        "name": "M4",
+        "price": 200000
+      },
+      {
+        "name": "M5",
+        "price": 200000
+      },
+      {
+        "name": "iEV6E",
+        "price": 200000
+      },
+      {
+        "name": "iEV7S",
+        "price": 200000
+      },
+      {
+        "name": "iEVA50",
+        "price": 200000
+      },
+      {
+        "name": "iEVA60",
+        "price": 200000
+      },
+      {
+        "name": "iEVS4",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Kia",
+
+    "models": [
+      {
+        "name": "Avella",
+        "price": 200000
+      },
+      {
+        "name": "Besta",
+        "price": 200000
+      },
+      {
+        "name": "Borrego",
+        "price": 200000
+      },
+      {
+        "name": "Capital",
+        "price": 200000
+      },
+      {
+        "name": "Carens",
+        "price": 200000
+      },
+      {
+        "name": "Carnival",
+        "price": 200000
+      },
+      {
+        "name": "Ceed",
+        "price": 200000
+      },
+      {
+        "name": "Cerato",
+        "price": 200000
+      },
+      {
+        "name": "Clarus",
+        "price": 200000
+      },
+      {
+        "name": "Concord",
+        "price": 200000
+      },
+      {
+        "name": "Enterprise",
+        "price": 200000
+      },
+      {
+        "name": "Joice",
+        "price": 200000
+      },
+      {
+        "name": "Leo",
+        "price": 200000
+      },
+      {
+        "name": "Magentis",
+        "price": 200000
+      },
+      {
+        "name": "Opirus",
+        "price": 200000
+      },
+      {
+        "name": "Optima",
+        "price": 200000
+      },
+      {
+        "name": "Picanto",
+        "price": 200000
+      },
+      {
+        "name": "Potentia",
+        "price": 200000
+      },
+      {
+        "name": "Pregio",
+        "price": 200000
+      },
+      {
+        "name": "Pride",
+        "price": 200000
+      },
+      {
+        "name": "Retona",
+        "price": 200000
+      },
+      {
+        "name": "Rio",
+        "price": 200000
+      },
+      {
+        "name": "Roadster",
+        "price": 200000
+      },
+      {
+        "name": "Rocsta",
+        "price": 200000
+      },
+      {
+        "name": "Sephia",
+        "price": 200000
+      },
+      {
+        "name": "Shuma",
+        "price": 200000
+      },
+      {
+        "name": "Sorento",
+        "price": 200000
+      },
+      {
+        "name": "Spectra",
+        "price": 200000
+      },
+      {
+        "name": "Sportage",
+        "price": 200000
+      },
+      {
+        "name": "Visto",
+        "price": 200000
+      },
+      {
+        "name": "Elan Sport",
+        "price": 200000
+      },
+      {
+        "name": "Sedona",
+        "price": 200000
+      },
+      {
+        "name": "Soul",
+        "price": 200000
+      },
+      {
+        "name": "Venga",
+        "price": 200000
+      },
+      {
+        "name": "K2700",
+        "price": 200000
+      },
+      {
+        "name": "Mohave",
+        "price": 200000
+      },
+      {
+        "name": "Pro Ceed",
+        "price": 200000
+      },
+      {
+        "name": "K5",
+        "price": 200000
+      },
+      {
+        "name": "Seltos",
+        "price": 200000
+      },
+      {
+        "name": "Stinger",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Lexus",
+
+    "models": [
+      {
+        "name": "ES300",
+        "price": 200000
+      },
+      {
+        "name": "ES330",
+        "price": 200000
+      },
+      {
+        "name": "ES350",
+        "price": 200000
+      },
+      {
+        "name": "GS300",
+        "price": 200000
+      },
+      {
+        "name": "GS400",
+        "price": 200000
+      },
+      {
+        "name": "GS430",
+        "price": 200000
+      },
+      {
+        "name": "GS450h",
+        "price": 200000
+      },
+      {
+        "name": "GS460",
+        "price": 200000
+      },
+      {
+        "name": "GX460",
+        "price": 200000
+      },
+      {
+        "name": "GX470",
+        "price": 200000
+      },
+      {
+        "name": "IS F",
+        "price": 200000
+      },
+      {
+        "name": "IS200",
+        "price": 200000
+      },
+      {
+        "name": "IS250",
+        "price": 200000
+      },
+      {
+        "name": "IS300",
+        "price": 200000
+      },
+      {
+        "name": "LS400",
+        "price": 200000
+      },
+      {
+        "name": "LS430",
+        "price": 200000
+      },
+      {
+        "name": "LS460",
+        "price": 200000
+      },
+      {
+        "name": "LS600h",
+        "price": 200000
+      },
+      {
+        "name": "LX450",
+        "price": 200000
+      },
+      {
+        "name": "LX470",
+        "price": 200000
+      },
+      {
+        "name": "LX570",
+        "price": 200000
+      },
+      {
+        "name": "RX300",
+        "price": 200000
+      },
+      {
+        "name": "RX330",
+        "price": 200000
+      },
+      {
+        "name": "RX450h",
+        "price": 200000
+      },
+      {
+        "name": "RX350",
+        "price": 200000
+      },
+      {
+        "name": "RX400h",
+        "price": 200000
+      },
+      {
+        "name": "SC400",
+        "price": 200000
+      },
+      {
+        "name": "SC430",
+        "price": 200000
+      },
+      {
+        "name": "HS",
+        "price": 200000
+      },
+      {
+        "name": "RX270",
+        "price": 200000
+      },
+      {
+        "name": "SC300",
+        "price": 200000
+      },
+      {
+        "name": "GS350",
+        "price": 200000
+      },
+      {
+        "name": "IS220",
+        "price": 200000
+      },
+      {
+        "name": "IS350",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Mazda",
+
+    "models": [
+      {
+        "name": "121",
+        "price": 200000
+      },
+      {
+        "name": "323",
+        "price": 200000
+      },
+      {
+        "name": "616",
+        "price": 200000
+      },
+      {
+        "name": "626",
+        "price": 200000
+      },
+      {
+        "name": "818 Kombi",
+        "price": 200000
+      },
+      {
+        "name": "929",
+        "price": 200000
+      },
+      {
+        "name": "1000",
+        "price": 200000
+      },
+      {
+        "name": "1300",
+        "price": 200000
+      },
+      {
+        "name": "Atenza",
+        "price": 200000
+      },
+      {
+        "name": "Axela",
+        "price": 200000
+      },
+      {
+        "name": "Az-1",
+        "price": 200000
+      },
+      {
+        "name": "Az-offroad",
+        "price": 200000
+      },
+      {
+        "name": "Az-wagon",
+        "price": 200000
+      },
+      {
+        "name": "Bongo",
+        "price": 200000
+      },
+      {
+        "name": "BT-50",
+        "price": 200000
+      },
+      {
+        "name": "Business",
+        "price": 200000
+      },
+      {
+        "name": "Capella",
+        "price": 200000
+      },
+      {
+        "name": "Carol",
+        "price": 200000
+      },
+      {
+        "name": "Clef",
+        "price": 200000
+      },
+      {
+        "name": "Cronos",
+        "price": 200000
+      },
+      {
+        "name": "CX-7",
+        "price": 200000
+      },
+      {
+        "name": "CX-9",
+        "price": 200000
+      },
+      {
+        "name": "Demio",
+        "price": 200000
+      },
+      {
+        "name": "E 1600",
+        "price": 200000
+      },
+      {
+        "name": "Eunos 500",
+        "price": 200000
+      },
+      {
+        "name": "Eunos 800",
+        "price": 200000
+      },
+      {
+        "name": "Eunos Cosmo",
+        "price": 200000
+      },
+      {
+        "name": "Familia",
+        "price": 200000
+      },
+      {
+        "name": "Lantis",
+        "price": 200000
+      },
+      {
+        "name": "Laputa",
+        "price": 200000
+      },
+      {
+        "name": "Levante",
+        "price": 200000
+      },
+      {
+        "name": "Millenia",
+        "price": 200000
+      },
+      {
+        "name": "MPV",
+        "price": 200000
+      },
+      {
+        "name": "Mx-3",
+        "price": 200000
+      },
+      {
+        "name": "Mx-5",
+        "price": 200000
+      },
+      {
+        "name": "Mx-6",
+        "price": 200000
+      },
+      {
+        "name": "Navajo",
+        "price": 200000
+      },
+      {
+        "name": "Premacy",
+        "price": 200000
+      },
+      {
+        "name": "Protege",
+        "price": 200000
+      },
+      {
+        "name": "Revue",
+        "price": 200000
+      },
+      {
+        "name": "Roadster",
+        "price": 200000
+      },
+      {
+        "name": "Rustler",
+        "price": 200000
+      },
+      {
+        "name": "RX 6",
+        "price": 200000
+      },
+      {
+        "name": "RX 7",
+        "price": 200000
+      },
+      {
+        "name": "RX 8",
+        "price": 200000
+      },
+      {
+        "name": "Scrum",
+        "price": 200000
+      },
+      {
+        "name": "Sentia",
+        "price": 200000
+      },
+      {
+        "name": "Spiano",
+        "price": 200000
+      },
+      {
+        "name": "Tribute",
+        "price": 200000
+      },
+      {
+        "name": "Vantrend",
+        "price": 200000
+      },
+      {
+        "name": "Verisa",
+        "price": 200000
+      },
+      {
+        "name": "Xedos 6",
+        "price": 200000
+      },
+      {
+        "name": "Xedos 9",
+        "price": 200000
+      },
+      {
+        "name": "2",
+        "price": 200000
+      },
+      {
+        "name": "3",
+        "price": 200000
+      },
+      {
+        "name": "5",
+        "price": 200000
+      },
+      {
+        "name": "6",
+        "price": 200000
+      },
+      {
+        "name": "Allegro",
+        "price": 200000
+      },
+      {
+        "name": "Az-3",
+        "price": 200000
+      },
+      {
+        "name": "B-series",
+        "price": 200000
+      },
+      {
+        "name": "Biante",
+        "price": 200000
+      },
+      {
+        "name": "Bongo Brawny",
+        "price": 200000
+      },
+      {
+        "name": "Bongo Brawny Van",
+        "price": 200000
+      },
+      {
+        "name": "Bongo Friendee",
+        "price": 200000
+      },
+      {
+        "name": "Bongo Van",
+        "price": 200000
+      },
+      {
+        "name": "Efini MPV",
+        "price": 200000
+      },
+      {
+        "name": "Efini MS-6",
+        "price": 200000
+      },
+      {
+        "name": "Efini MS-8",
+        "price": 200000
+      },
+      {
+        "name": "Efini MS-9",
+        "price": 200000
+      },
+      {
+        "name": "Efini RX-7",
+        "price": 200000
+      },
+      {
+        "name": "Eunos 100",
+        "price": 200000
+      },
+      {
+        "name": "Eunos 300",
+        "price": 200000
+      },
+      {
+        "name": "Eunos Cargo",
+        "price": 200000
+      },
+      {
+        "name": "Eunos Presso",
+        "price": 200000
+      },
+      {
+        "name": "Eunos Roadster",
+        "price": 200000
+      },
+      {
+        "name": "Luce",
+        "price": 200000
+      },
+      {
+        "name": "Persona",
+        "price": 200000
+      },
+      {
+        "name": "Proceed",
+        "price": 200000
+      },
+      {
+        "name": "Savanna",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Mercedes",
+
+    "models": [
+      {
+        "name": "Cabrio",
+        "price": 200000
+      },
+      {
+        "name": "Coupe",
+        "price": 200000
+      },
+      {
+        "name": "T-mod",
+        "price": 200000
+      },
+      {
+        "name": "/8",
+        "price": 200000
+      },
+      {
+        "name": "/8 Coupe",
+        "price": 200000
+      },
+      {
+        "name": "190",
+        "price": 200000
+      },
+      {
+        "name": "200",
+        "price": 200000
+      },
+      {
+        "name": "220",
+        "price": 200000
+      },
+      {
+        "name": "230",
+        "price": 200000
+      },
+      {
+        "name": "240",
+        "price": 200000
+      },
+      {
+        "name": "250",
+        "price": 200000
+      },
+      {
+        "name": "260",
+        "price": 200000
+      },
+      {
+        "name": "280",
+        "price": 200000
+      },
+      {
+        "name": "300",
+        "price": 200000
+      },
+      {
+        "name": "A 140",
+        "price": 200000
+      },
+      {
+        "name": "A 150",
+        "price": 200000
+      },
+      {
+        "name": "A 160",
+        "price": 200000
+      },
+      {
+        "name": "A 170",
+        "price": 200000
+      },
+      {
+        "name": "A 180",
+        "price": 200000
+      },
+      {
+        "name": "A 190",
+        "price": 200000
+      },
+      {
+        "name": "A 200",
+        "price": 200000
+      },
+      {
+        "name": "A 210",
+        "price": 200000
+      },
+      {
+        "name": "B 150",
+        "price": 200000
+      },
+      {
+        "name": "B 170",
+        "price": 200000
+      },
+      {
+        "name": "B 180",
+        "price": 200000
+      },
+      {
+        "name": "B 200",
+        "price": 200000
+      },
+      {
+        "name": "C 160",
+        "price": 200000
+      },
+      {
+        "name": "C 180",
+        "price": 200000
+      },
+      {
+        "name": "C 200",
+        "price": 200000
+      },
+      {
+        "name": "C 220",
+        "price": 200000
+      },
+      {
+        "name": "C 230",
+        "price": 200000
+      },
+      {
+        "name": "C 240",
+        "price": 200000
+      },
+      {
+        "name": "C 250",
+        "price": 200000
+      },
+      {
+        "name": "C 270",
+        "price": 200000
+      },
+      {
+        "name": "C 280",
+        "price": 200000
+      },
+      {
+        "name": "C 300",
+        "price": 200000
+      },
+      {
+        "name": "C 32 AMG",
+        "price": 200000
+      },
+      {
+        "name": "C 320",
+        "price": 200000
+      },
+      {
+        "name": "C 350",
+        "price": 200000
+      },
+      {
+        "name": "C 36 AMG",
+        "price": 200000
+      },
+      {
+        "name": "C 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "C 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "CL 420",
+        "price": 200000
+      },
+      {
+        "name": "CL 500",
+        "price": 200000
+      },
+      {
+        "name": "CL 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "CL 600",
+        "price": 200000
+      },
+      {
+        "name": "CL 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "CL 65 AMG",
+        "price": 200000
+      },
+      {
+        "name": "CLC 180",
+        "price": 200000
+      },
+      {
+        "name": "CLC 180 Kompressor",
+        "price": 200000
+      },
+      {
+        "name": "CLC 200 CDI",
+        "price": 200000
+      },
+      {
+        "name": "CLC 200 Kompressor",
+        "price": 200000
+      },
+      {
+        "name": "CLC 230",
+        "price": 200000
+      },
+      {
+        "name": "CLC 350",
+        "price": 200000
+      },
+      {
+        "name": "CLK 200",
+        "price": 200000
+      },
+      {
+        "name": "CLK 220",
+        "price": 200000
+      },
+      {
+        "name": "CLK 230",
+        "price": 200000
+      },
+      {
+        "name": "CLK 240",
+        "price": 200000
+      },
+      {
+        "name": "CLK 270",
+        "price": 200000
+      },
+      {
+        "name": "CLK 280",
+        "price": 200000
+      },
+      {
+        "name": "CLS 350",
+        "price": 200000
+      },
+      {
+        "name": "CLS 500",
+        "price": 200000
+      },
+      {
+        "name": "CLS 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "CLS 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "CLK 320",
+        "price": 200000
+      },
+      {
+        "name": "CLK 350",
+        "price": 200000
+      },
+      {
+        "name": "CLK 430",
+        "price": 200000
+      },
+      {
+        "name": "CLK 500",
+        "price": 200000
+      },
+      {
+        "name": "CLK 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "CLK 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "CLS 280",
+        "price": 200000
+      },
+      {
+        "name": "CLS 320",
+        "price": 200000
+      },
+      {
+        "name": "E 200",
+        "price": 200000
+      },
+      {
+        "name": "E 220",
+        "price": 200000
+      },
+      {
+        "name": "E 230",
+        "price": 200000
+      },
+      {
+        "name": "E 240",
+        "price": 200000
+      },
+      {
+        "name": "E 250",
+        "price": 200000
+      },
+      {
+        "name": "E 270",
+        "price": 200000
+      },
+      {
+        "name": "E 280",
+        "price": 200000
+      },
+      {
+        "name": "E 290",
+        "price": 200000
+      },
+      {
+        "name": "E 300",
+        "price": 200000
+      },
+      {
+        "name": "E 320",
+        "price": 200000
+      },
+      {
+        "name": "E 350",
+        "price": 200000
+      },
+      {
+        "name": "E 400",
+        "price": 200000
+      },
+      {
+        "name": "E 420",
+        "price": 200000
+      },
+      {
+        "name": "E 430",
+        "price": 200000
+      },
+      {
+        "name": "E 500",
+        "price": 200000
+      },
+      {
+        "name": "E 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "E 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "G 500",
+        "price": 200000
+      },
+      {
+        "name": "G 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "G 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "G 230",
+        "price": 200000
+      },
+      {
+        "name": "G 270",
+        "price": 200000
+      },
+      {
+        "name": "G 280",
+        "price": 200000
+      },
+      {
+        "name": "G 290",
+        "price": 200000
+      },
+      {
+        "name": "G 300",
+        "price": 200000
+      },
+      {
+        "name": "G 320",
+        "price": 200000
+      },
+      {
+        "name": "G 350",
+        "price": 200000
+      },
+      {
+        "name": "G 400",
+        "price": 200000
+      },
+      {
+        "name": "GL 320",
+        "price": 200000
+      },
+      {
+        "name": "GL 350",
+        "price": 200000
+      },
+      {
+        "name": "GL 420",
+        "price": 200000
+      },
+      {
+        "name": "GL 450",
+        "price": 200000
+      },
+      {
+        "name": "GL 500",
+        "price": 200000
+      },
+      {
+        "name": "GLK 280",
+        "price": 200000
+      },
+      {
+        "name": "GLK 220",
+        "price": 200000
+      },
+      {
+        "name": "GLK 300",
+        "price": 200000
+      },
+      {
+        "name": "GLK 350",
+        "price": 200000
+      },
+      {
+        "name": "ML 270",
+        "price": 200000
+      },
+      {
+        "name": "ML 280",
+        "price": 200000
+      },
+      {
+        "name": "GL 550",
+        "price": 200000
+      },
+      {
+        "name": "ML 230",
+        "price": 200000
+      },
+      {
+        "name": "ML 320",
+        "price": 200000
+      },
+      {
+        "name": "ML 350",
+        "price": 200000
+      },
+      {
+        "name": "ML 400",
+        "price": 200000
+      },
+      {
+        "name": "ML 420",
+        "price": 200000
+      },
+      {
+        "name": "ML 430",
+        "price": 200000
+      },
+      {
+        "name": "ML 500",
+        "price": 200000
+      },
+      {
+        "name": "ML 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "ML 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "R 280",
+        "price": 200000
+      },
+      {
+        "name": "R350",
+        "price": 200000
+      },
+      {
+        "name": "R 500",
+        "price": 200000
+      },
+      {
+        "name": "R 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "S 260",
+        "price": 200000
+      },
+      {
+        "name": "S 280",
+        "price": 200000
+      },
+      {
+        "name": "S 300",
+        "price": 200000
+      },
+      {
+        "name": "S 320",
+        "price": 200000
+      },
+      {
+        "name": "S 350",
+        "price": 200000
+      },
+      {
+        "name": "S 380",
+        "price": 200000
+      },
+      {
+        "name": "S 400",
+        "price": 200000
+      },
+      {
+        "name": "S 420",
+        "price": 200000
+      },
+      {
+        "name": "S 430",
+        "price": 200000
+      },
+      {
+        "name": "S 450",
+        "price": 200000
+      },
+      {
+        "name": "R 320",
+        "price": 200000
+      },
+      {
+        "name": "S 500",
+        "price": 200000
+      },
+      {
+        "name": "S 550",
+        "price": 200000
+      },
+      {
+        "name": "S 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "S 560",
+        "price": 200000
+      },
+      {
+        "name": "S 600",
+        "price": 200000
+      },
+      {
+        "name": "S 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "S 65 AMG",
+        "price": 200000
+      },
+      {
+        "name": "SL 280",
+        "price": 200000
+      },
+      {
+        "name": "SL 300",
+        "price": 200000
+      },
+      {
+        "name": "SL 320",
+        "price": 200000
+      },
+      {
+        "name": "SL 350",
+        "price": 200000
+      },
+      {
+        "name": "SL 500",
+        "price": 200000
+      },
+      {
+        "name": "SL 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "SL 60 AMG",
+        "price": 200000
+      },
+      {
+        "name": "SL 600",
+        "price": 200000
+      },
+      {
+        "name": "SL 63 AMG",
+        "price": 200000
+      },
+      {
+        "name": "SL 65 AMG",
+        "price": 200000
+      },
+      {
+        "name": "SLK 200",
+        "price": 200000
+      },
+      {
+        "name": "SLK 230",
+        "price": 200000
+      },
+      {
+        "name": "SLR",
+        "price": 200000
+      },
+      {
+        "name": "SLS",
+        "price": 200000
+      },
+      {
+        "name": "SLK 280",
+        "price": 200000
+      },
+      {
+        "name": "SLK 320",
+        "price": 200000
+      },
+      {
+        "name": "SLK 350",
+        "price": 200000
+      },
+      {
+        "name": "SLK 55 AMG",
+        "price": 200000
+      },
+      {
+        "name": "Sprinter",
+        "price": 200000
+      },
+      {
+        "name": "V 200",
+        "price": 200000
+      },
+      {
+        "name": "V 220",
+        "price": 200000
+      },
+      {
+        "name": "V 230",
+        "price": 200000
+      },
+      {
+        "name": "V 280",
+        "price": 200000
+      },
+      {
+        "name": "Vaneo",
+        "price": 200000
+      },
+      {
+        "name": "Viano",
+        "price": 200000
+      },
+      {
+        "name": "Vito",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Mitsubishi",
+
+    "models": [
+      {
+        "name": "3000 GT",
+        "price": 200000
+      },
+      {
+        "name": "Airtrek",
+        "price": 200000
+      },
+      {
+        "name": "Aspire",
+        "price": 200000
+      },
+      {
+        "name": "Carisma",
+        "price": 200000
+      },
+      {
+        "name": "Celeste",
+        "price": 200000
+      },
+      {
+        "name": "Challenger",
+        "price": 200000
+      },
+      {
+        "name": "Chariot",
+        "price": 200000
+      },
+      {
+        "name": "Colt",
+        "price": 200000
+      },
+      {
+        "name": "Colt Lancer",
+        "price": 200000
+      },
+      {
+        "name": "Cordia",
+        "price": 200000
+      },
+      {
+        "name": "Debonair",
+        "price": 200000
+      },
+      {
+        "name": "Delica",
+        "price": 200000
+      },
+      {
+        "name": "Diamante",
+        "price": 200000
+      },
+      {
+        "name": "Dingo",
+        "price": 200000
+      },
+      {
+        "name": "Dion",
+        "price": 200000
+      },
+      {
+        "name": "Eclipse",
+        "price": 200000
+      },
+      {
+        "name": "EK Wagon",
+        "price": 200000
+      },
+      {
+        "name": "Emeraude",
+        "price": 200000
+      },
+      {
+        "name": "Endeavor",
+        "price": 200000
+      },
+      {
+        "name": "FTO",
+        "price": 200000
+      },
+      {
+        "name": "Galant",
+        "price": 200000
+      },
+      {
+        "name": "Grandis",
+        "price": 200000
+      },
+      {
+        "name": "GTO",
+        "price": 200000
+      },
+      {
+        "name": "i",
+        "price": 200000
+      },
+      {
+        "name": "L 200",
+        "price": 200000
+      },
+      {
+        "name": "Lancer",
+        "price": 200000
+      },
+      {
+        "name": "Legnum",
+        "price": 200000
+      },
+      {
+        "name": "Libero",
+        "price": 200000
+      },
+      {
+        "name": "Minica",
+        "price": 200000
+      },
+      {
+        "name": "Mirage",
+        "price": 200000
+      },
+      {
+        "name": "Montero",
+        "price": 200000
+      },
+      {
+        "name": "Montero Sport",
+        "price": 200000
+      },
+      {
+        "name": "Outlander",
+        "price": 200000
+      },
+      {
+        "name": "Pajero",
+        "price": 200000
+      },
+      {
+        "name": "Pistachio",
+        "price": 200000
+      },
+      {
+        "name": "Pistachio Pinin",
+        "price": 200000
+      },
+      {
+        "name": "Pistachio Sport",
+        "price": 200000
+      },
+      {
+        "name": "Proudia/dignity",
+        "price": 200000
+      },
+      {
+        "name": "RVR",
+        "price": 200000
+      },
+      {
+        "name": "Santamo",
+        "price": 200000
+      },
+      {
+        "name": "Sapporo",
+        "price": 200000
+      },
+      {
+        "name": "Sigma",
+        "price": 200000
+      },
+      {
+        "name": "Space Gear",
+        "price": 200000
+      },
+      {
+        "name": "Space Runner",
+        "price": 200000
+      },
+      {
+        "name": "Space Star",
+        "price": 200000
+      },
+      {
+        "name": "Space Wagon",
+        "price": 200000
+      },
+      {
+        "name": "Starion",
+        "price": 200000
+      },
+      {
+        "name": "Toppo",
+        "price": 200000
+      },
+      {
+        "name": "Town BOX",
+        "price": 200000
+      },
+      {
+        "name": "Tredia",
+        "price": 200000
+      },
+      {
+        "name": "380",
+        "price": 200000
+      },
+      {
+        "name": "ASX",
+        "price": 200000
+      },
+      {
+        "name": "Bravo",
+        "price": 200000
+      },
+      {
+        "name": "L300",
+        "price": 200000
+      },
+      {
+        "name": "L400",
+        "price": 200000
+      },
+      {
+        "name": "Lancer Evolution",
+        "price": 200000
+      },
+      {
+        "name": "Magna",
+        "price": 200000
+      },
+      {
+        "name": "Pajero IO",
+        "price": 200000
+      },
+      {
+        "name": "Pajero Junior",
+        "price": 200000
+      },
+      {
+        "name": "Pajero Mini",
+        "price": 200000
+      },
+      {
+        "name": "Pajero Pinin",
+        "price": 200000
+      },
+      {
+        "name": "Pajero Sport",
+        "price": 200000
+      },
+      {
+        "name": "Raider",
+        "price": 200000
+      },
+      {
+        "name": "Shogun",
+        "price": 200000
+      },
+      {
+        "name": "Shogun Mini",
+        "price": 200000
+      },
+      {
+        "name": "Shogun Sport",
+        "price": 200000
+      },
+      {
+        "name": "Triton",
+        "price": 200000
+      },
+      {
+        "name": "Eterna",
+        "price": 200000
+      },
+      {
+        "name": "Jeep",
+        "price": 200000
+      },
+      {
+        "name": "Lancer Cedia",
+        "price": 200000
+      },
+      {
+        "name": "Lancer Cedia Wagon",
+        "price": 200000
+      },
+      {
+        "name": "Lancer Evolution IX",
+        "price": 200000
+      },
+      {
+        "name": "Lancer Evolution VI",
+        "price": 200000
+      },
+      {
+        "name": "Lancer Evolution VIII",
+        "price": 200000
+      },
+      {
+        "name": "Lancer Wagon",
+        "price": 200000
+      },
+      {
+        "name": "Lancer X",
+        "price": 200000
+      },
+      {
+        "name": "Lancer X Sportback",
+        "price": 200000
+      },
+      {
+        "name": "Mirage Wagon",
+        "price": 200000
+      },
+      {
+        "name": "Outlander XL",
+        "price": 200000
+      }
+    ]
+  },
+
+  {
+    "brand": "Nissan",
+
+    "models": [
+      {
+        "name": "100NX",
+        "price": 200000
+      },
+      {
+        "name": "180SX",
+        "price": 200000
+      },
+      {
+        "name": "200SX",
+        "price": 200000
+      },
+      {
+        "name": "240SX",
+        "price": 200000
+      },
+      {
+        "name": "280Zx",
+        "price": 200000
+      },
+      {
+        "name": "300ZX",
+        "price": 200000
+      },
+      {
+        "name": "350Z",
+        "price": 200000
+      },
+      {
+        "name": "AD",
+        "price": 200000
+      },
+      {
+        "name": "Almera",
+        "price": 200000
+      },
+      {
+        "name": "Altima",
+        "price": 200000
+      },
+      {
+        "name": "Armada",
+        "price": 200000
+      },
+      {
+        "name": "Avenir",
+        "price": 200000
+      },
+      {
+        "name": "Bassara",
+        "price": 200000
+      },
+      {
+        "name": "Bluebird",
+        "price": 200000
+      },
+      {
+        "name": "Cedric",
+        "price": 200000
+      },
+      {
+        "name": "Cefiro",
+        "price": 200000
+      },
+      {
+        "name": "Cherry",
+        "price": 200000
+      },
+      {
+        "name": "Cima",
+        "price": 200000
+      },
+      {
+        "name": "Crew",
+        "price": 200000
+      },
+      {
+        "name": "Cube",
+        "price": 200000
+      },
+      {
+        "name": "Datsun",
+        "price": 200000
+      },
+      {
+        "name": "Elgrand",
+        "price": 200000
+      },
+      {
+        "name": "Expert",
+        "price": 200000
+      },
+      {
+        "name": "Fairlady",
+        "price": 200000
+      },
+      {
+        "name": "Frontier",
+        "price": 200000
+      },
+      {
+        "name": "Gloria",
+        "price": 200000
+      },
+      {
+        "name": "GT-R",
+        "price": 200000
+      },
+      {
+        "name": "King Cab",
+        "price": 200000
+      },
+      {
+        "name": "Lafesta",
+        "price": 200000
+      },
+      {
+        "name": "Largo",
+        "price": 200000
+      },
+      {
+        "name": "Laurel",
+        "price": 200000
+      },
+      {
+        "name": "Leopard",
+        "price": 200000
+      },
+      {
+        "name": "Liberty",
+        "price": 200000
+      },
+      {
+        "name": "Lucino",
+        "price": 200000
+      },
+      {
+        "name": "March",
+        "price": 200000
+      },
+      {
+        "name": "Maxima",
+        "price": 200000
+      },
+      {
+        "name": "Micra",
+        "price": 200000
+      },
+      {
+        "name": "Mistral",
+        "price": 200000
+      },
+      {
+        "name": "Moco",
+        "price": 200000
+      },
+      {
+        "name": "Murano",
+        "price": 200000
+      },
+      {
+        "name": "Navara",
+        "price": 200000
+      },
+      {
+        "name": "Note",
+        "price": 200000
+      },
+      {
+        "name": "Pathfinder",
+        "price": 200000
+      },
+      {
+        "name": "Patrol",
+        "price": 200000
+      },
+      {
+        "name": "Pick UP",
+        "price": 200000
+      },
+      {
+        "name": "Prairie",
+        "price": 200000
+      },
+      {
+        "name": "Presage",
+        "price": 200000
+      },
+      {
+        "name": "Presea",
+        "price": 200000
+      },
+      {
+        "name": "President",
+        "price": 200000
+      },
+      {
+        "name": "Primera",
+        "price": 200000
+      },
+      {
+        "name": "Pulsar",
+        "price": 200000
+      },
+      {
+        "name": "Qashqai",
+        "price": 200000
+      },
+      {
+        "name": "Quest",
+        "price": 200000
+      },
+      {
+        "name": "R Nessa",
+        "price": 200000
+      },
+      {
+        "name": "Rasheen",
+        "price": 200000
+      },
+      {
+        "name": "Rogue",
+        "price": 200000
+      },
+      {
+        "name": "Safari",
+        "price": 200000
+      },
+      {
+        "name": "Sentra",
+        "price": 200000
+      },
+      {
+        "name": "Serena",
+        "price": 200000
+      },
+      {
+        "name": "Silvia",
+        "price": 200000
+      },
+      {
+        "name": "Skyline",
+        "price": 200000
+      },
+      {
+        "name": "SP 300",
+        "price": 200000
+      },
+      {
+        "name": "Stagea",
+        "price": 200000
+      },
+      {
+        "name": "Stanza",
+        "price": 200000
+      },
+      {
+        "name": "Sunny",
+        "price": 200000
+      },
+      {
+        "name": "Teana",
+        "price": 200000
+      },
+      {
+        "name": "Terrano",
+        "price": 200000
+      },
+      {
+        "name": "Tiida",
+        "price": 200000
+      },
+      {
+        "name": "Tino",
+        "price": 200000
+      },
+      {
+        "name": "Titan",
+        "price": 200000
+      },
+      {
+        "name": "Vanette",
+        "price": 200000
+      },
+      {
+        "name": "Versa",
+        "price": 200000
+      },
+      {
+        "name": "Wingroad",
+        "price": 200000
+      },
+      {
+        "name": "X-Terra",
+        "price": 200000
+      },
+      {
+        "name": "X-Trail",
+        "price": 200000
+      },
+      {
+        "name": "370Z",
+        "price": 200000
+      },
+      {
+        "name": "Almera Tino",
+        "price": 200000
+      },
+      {
+        "name": "BE-1",
+        "price": 200000
+      },
+      {
+        "name": "Bluebird Sylphy",
+        "price": 200000
+      },
+      {
+        "name": "Caravan",
+        "price": 200000
+      },
+      {
+        "name": "Clipper",
+        "price": 200000
+      },
+      {
+        "name": "Figaro",
+        "price": 200000
+      },
+      {
+        "name": "Fuga",
+        "price": 200000
+      },
+      {
+        "name": "Homy",
+        "price": 200000
+      },
+      {
+        "name": "Homy Elgrand",
+        "price": 200000
+      },
+      {
+        "name": "Hypermini",
+        "price": 200000
+      },
+      {
+        "name": "Interstar",
+        "price": 200000
+      },
+      {
+        "name": "Juke",
+        "price": 200000
+      },
+      {
+        "name": "Kix",
+        "price": 200000
+      },
+      {
+        "name": "Kubistar",
+        "price": 200000
+      },
+      {
+        "name": "NP 300 Pickup",
+        "price": 200000
+      },
+      {
+        "name": "NV200",
+        "price": 200000
+      },
+      {
+        "name": "NX-Coupe",
+        "price": 200000
+      },
+      {
+        "name": "Otti",
+        "price": 200000
+      },
+      {
+        "name": "Pao",
+        "price": 200000
+      },
+      {
+        "name": "Pino",
+        "price": 200000
+      },
+      {
+        "name": "Pixo",
+        "price": 200000
+      },
+      {
+        "name": "Langley",
+        "price": 200000
+      },
+      {
+        "name": "Skyline GT-R",
+        "price": 200000
+      },
+      {
+        "name": "Maxima QX",
+        "price": 200000
+      },
+      {
+        "name": "Primera Camino",
+        "price": 200000
+      },
+      {
+        "name": "Primera Wagon",
+        "price": 200000
+      },
+      {
+        "name": "Prairie Joy",
+        "price": 200000
+      },
+      {
+        "name": "Terrano II",
+        "price": 200000
+      },
+      {
+        "name": "Terrano Regulus",
+        "price": 200000
+      },
+      {
+        "name": "Tiida Latio",
+        "price": 200000
+      },
+      {
+        "name": "Vanette Van",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Opel",
+
+    "models": [
+      {
+        "name": "Admiral",
+        "price": 200000
+      },
+      {
+        "name": "Agila",
+        "price": 200000
+      },
+      {
+        "name": "Antara",
+        "price": 200000
+      },
+      {
+        "name": "Arena",
+        "price": 200000
+      },
+      {
+        "name": "Ascona",
+        "price": 200000
+      },
+      {
+        "name": "Astra",
+        "price": 200000
+      },
+      {
+        "name": "Calibra",
+        "price": 200000
+      },
+      {
+        "name": "Campo",
+        "price": 200000
+      },
+      {
+        "name": "Combo",
+        "price": 200000
+      },
+      {
+        "name": "Commodore",
+        "price": 200000
+      },
+      {
+        "name": "Corsa",
+        "price": 200000
+      },
+      {
+        "name": "Diplomat",
+        "price": 200000
+      },
+      {
+        "name": "Frontera",
+        "price": 200000
+      },
+      {
+        "name": "GT",
+        "price": 200000
+      },
+      {
+        "name": "Insignia",
+        "price": 200000
+      },
+      {
+        "name": "Kadett",
+        "price": 200000
+      },
+      {
+        "name": "Manta",
+        "price": 200000
+      },
+      {
+        "name": "Meriva",
+        "price": 200000
+      },
+      {
+        "name": "Monterey",
+        "price": 200000
+      },
+      {
+        "name": "Monza",
+        "price": 200000
+      },
+      {
+        "name": "Movano",
+        "price": 200000
+      },
+      {
+        "name": "Omega",
+        "price": 200000
+      },
+      {
+        "name": "Rekord",
+        "price": 200000
+      },
+      {
+        "name": "Senator",
+        "price": 200000
+      },
+      {
+        "name": "Signum",
+        "price": 200000
+      },
+      {
+        "name": "Sintra",
+        "price": 200000
+      },
+      {
+        "name": "Speedster",
+        "price": 200000
+      },
+      {
+        "name": "Tigra",
+        "price": 200000
+      },
+      {
+        "name": "Vectra",
+        "price": 200000
+      },
+      {
+        "name": "Vita",
+        "price": 200000
+      },
+      {
+        "name": "Zafira",
+        "price": 200000
+      },
+      {
+        "name": "Kadett D",
+        "price": 200000
+      },
+      {
+        "name": "Kadett E",
+        "price": 200000
+      },
+      {
+        "name": "Vivaro",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "ORA",
+
+    "models": [
+      {
+        "name": "R1",
+        "price": 200000
+      },
+      {
+        "name": "iQ",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Peugeot",
+
+    "models": [
+      {
+        "name": "Expert",
+        "price": 200000
+      },
+      {
+        "name": "e-208",
+        "price": 200000
+      },
+      {
+        "name": "e-2008",
+        "price": 200000
+      },
+      {
+        "name": "208",
+        "price": 200000
+      },
+      {
+        "name": "308",
+        "price": 200000
+      },
+      {
+        "name": "508",
+        "price": 200000
+      },
+      {
+        "name": "2008",
+        "price": 200000
+      },
+      {
+        "name": "3008",
+        "price": 200000
+      },
+      {
+        "name": "5008",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Porsche",
+
+    "models": [
+      {
+        "name": "Boxster",
+        "price": 200000
+      },
+      {
+        "name": "Carrera",
+        "price": 200000
+      },
+      {
+        "name": "Cayenne",
+        "price": 200000
+      },
+      {
+        "name": "Cayman",
+        "price": 200000
+      },
+      {
+        "name": "Macan",
+        "price": 200000
+      },
+      {
+        "name": "Panamera",
+        "price": 200000
+      },
+      {
+        "name": "Taycan",
+        "price": 200000
+      },
+      {
+        "name": "911",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Skoda",
+
+    "models": [
+      {
+        "name": "Karoq",
+        "price": 200000
+      },
+      {
+        "name": "Kodiaq",
+        "price": 200000
+      },
+      {
+        "name": "Octavia",
+        "price": 200000
+      },
+      {
+        "name": "Rapid",
+        "price": 200000
+      },
+      {
+        "name": "Superb",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Tesla",
+
+    "models": [
+      {
+        "name": "Model S",
+        "price": 200000
+      },
+      {
+        "name": "Model X",
+        "price": 200000
+      },
+      {
+        "name": "Model Y",
+        "price": 200000
+      },
+      {
+        "name": "Model 3",
+        "price": 200000
+      },
+      {
+        "name": "Roadster",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+
+    "models": [
+      {
+        "name": "181",
+        "price": 200000
+      },
+      {
+        "name": "411",
+        "price": 200000
+      },
+      {
+        "name": "412",
+        "price": 200000
+      },
+      {
+        "name": "1500",
+        "price": 200000
+      },
+      {
+        "name": "1600",
+        "price": 200000
+      },
+      {
+        "name": "Bora",
+        "price": 200000
+      },
+      {
+        "name": "Caddy",
+        "price": 200000
+      },
+      {
+        "name": "Corrado",
+        "price": 200000
+      },
+      {
+        "name": "Derby",
+        "price": 200000
+      },
+      {
+        "name": "Eos",
+        "price": 200000
+      },
+      {
+        "name": "Fox",
+        "price": 200000
+      },
+      {
+        "name": "Golf",
+        "price": 200000
+      },
+      {
+        "name": "Iltis",
+        "price": 200000
+      },
+      {
+        "name": "Jetta",
+        "price": 200000
+      },
+      {
+        "name": "Kaefer",
+        "price": 200000
+      },
+      {
+        "name": "Lupo",
+        "price": 200000
+      },
+      {
+        "name": "Multivan",
+        "price": 200000
+      },
+      {
+        "name": "New Beetle",
+        "price": 200000
+      },
+      {
+        "name": "Passat",
+        "price": 200000
+      },
+      {
+        "name": "Phaeton",
+        "price": 200000
+      },
+      {
+        "name": "Pointer",
+        "price": 200000
+      },
+      {
+        "name": "Polo",
+        "price": 200000
+      },
+      {
+        "name": "Santana",
+        "price": 200000
+      },
+      {
+        "name": "Scirocco",
+        "price": 200000
+      },
+      {
+        "name": "Sharan",
+        "price": 200000
+      },
+      {
+        "name": "Taro",
+        "price": 200000
+      },
+      {
+        "name": "Tiguan",
+        "price": 200000
+      },
+      {
+        "name": "Touareg",
+        "price": 200000
+      },
+      {
+        "name": "Touran",
+        "price": 200000
+      },
+      {
+        "name": "Vento",
+        "price": 200000
+      },
+      {
+        "name": "W12",
+        "price": 200000
+      },
+      {
+        "name": "Caravelle",
+        "price": 200000
+      },
+      {
+        "name": "CrossGolf",
+        "price": 200000
+      },
+      {
+        "name": "Gol",
+        "price": 200000
+      },
+      {
+        "name": "Transporter",
+        "price": 200000
+      },
+      {
+        "name": "Golf Plus",
+        "price": 200000
+      },
+      {
+        "name": "Amarok",
+        "price": 200000
+      },
+      {
+        "name": "Passat CC",
+        "price": 200000
+      },
+      {
+        "name": "California",
+        "price": 200000
+      },
+      {
+        "name": "Routan",
+        "price": 200000
+      },
+      {
+        "name": "Beetle",
+        "price": 200000
+      },
+      {
+        "name": "CrossPolo",
+        "price": 200000
+      },
+      {
+        "name": "Golf I",
+        "price": 200000
+      },
+      {
+        "name": "Golf II",
+        "price": 200000
+      },
+      {
+        "name": "Golf III",
+        "price": 200000
+      },
+      {
+        "name": "Golf IV",
+        "price": 200000
+      },
+      {
+        "name": "Golf V",
+        "price": 200000
+      },
+      {
+        "name": "Golf VI",
+        "price": 200000
+      },
+      {
+        "name": "Jetta 1",
+        "price": 200000
+      },
+      {
+        "name": "Jetta 2",
+        "price": 200000
+      },
+      {
+        "name": "Polo Sedan",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Xpeng",
+
+    "models": [
+      {
+        "name": "G3",
+        "price": 200000
+      },
+      {
+        "name": "P7",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "(ВАЗ)",
+
+    "models": [
+      {
+        "name": "1111 Ока",
+        "price": 200000
+      },
+      {
+        "name": "1117 Kalina универсал",
+        "price": 200000
+      },
+      {
+        "name": "1118 Kalina седан",
+        "price": 200000
+      },
+      {
+        "name": "1119 Kalina хэтчбэк",
+        "price": 200000
+      },
+      {
+        "name": "2101",
+        "price": 200000
+      },
+      {
+        "name": "2102",
+        "price": 200000
+      },
+      {
+        "name": "2103",
+        "price": 200000
+      },
+      {
+        "name": "2104",
+        "price": 200000
+      },
+      {
+        "name": "2105",
+        "price": 200000
+      },
+      {
+        "name": "2106",
+        "price": 200000
+      },
+      {
+        "name": "2107",
+        "price": 200000
+      },
+      {
+        "name": "2108",
+        "price": 200000
+      },
+      {
+        "name": "2109",
+        "price": 200000
+      },
+      {
+        "name": "21093",
+        "price": 200000
+      },
+      {
+        "name": "21099",
+        "price": 200000
+      },
+      {
+        "name": "2110",
+        "price": 200000
+      },
+      {
+        "name": "2111",
+        "price": 200000
+      },
+      {
+        "name": "2112",
+        "price": 200000
+      },
+      {
+        "name": "2113",
+        "price": 200000
+      },
+      {
+        "name": "2114",
+        "price": 200000
+      },
+      {
+        "name": "2115",
+        "price": 200000
+      },
+      {
+        "name": "2120",
+        "price": 200000
+      },
+      {
+        "name": "2121 Нива",
+        "price": 200000
+      },
+      {
+        "name": "2123",
+        "price": 200000
+      },
+      {
+        "name": "2125",
+        "price": 200000
+      },
+      {
+        "name": "2126",
+        "price": 200000
+      },
+      {
+        "name": "2129",
+        "price": 200000
+      },
+      {
+        "name": "2131",
+        "price": 200000
+      },
+      {
+        "name": "2328",
+        "price": 200000
+      },
+      {
+        "name": "2329",
+        "price": 200000
+      },
+      {
+        "name": "2170 Priora",
+        "price": 200000
+      },
+      {
+        "name": "11113 Ока",
+        "price": 200000
+      },
+      {
+        "name": "21043",
+        "price": 200000
+      },
+      {
+        "name": "21045",
+        "price": 200000
+      },
+      {
+        "name": "21047",
+        "price": 200000
+      },
+      {
+        "name": "21054",
+        "price": 200000
+      },
+      {
+        "name": "21061",
+        "price": 200000
+      },
+      {
+        "name": "21063",
+        "price": 200000
+      },
+      {
+        "name": "21065",
+        "price": 200000
+      },
+      {
+        "name": "21053",
+        "price": 200000
+      },
+      {
+        "name": "21071",
+        "price": 200000
+      },
+      {
+        "name": "21072",
+        "price": 200000
+      },
+      {
+        "name": "21073",
+        "price": 200000
+      },
+      {
+        "name": "21074",
+        "price": 200000
+      },
+      {
+        "name": "21079",
+        "price": 200000
+      },
+      {
+        "name": "21081",
+        "price": 200000
+      },
+      {
+        "name": "21083",
+        "price": 200000
+      },
+      {
+        "name": "21086",
+        "price": 200000
+      },
+      {
+        "name": "21091",
+        "price": 200000
+      },
+      {
+        "name": "21101",
+        "price": 200000
+      },
+      {
+        "name": "21102",
+        "price": 200000
+      },
+      {
+        "name": "21103",
+        "price": 200000
+      },
+      {
+        "name": "21104",
+        "price": 200000
+      },
+      {
+        "name": "21106",
+        "price": 200000
+      },
+      {
+        "name": "21108",
+        "price": 200000
+      },
+      {
+        "name": "21111",
+        "price": 200000
+      },
+      {
+        "name": "21112",
+        "price": 200000
+      },
+      {
+        "name": "21113",
+        "price": 200000
+      },
+      {
+        "name": "21114",
+        "price": 200000
+      },
+      {
+        "name": "21121",
+        "price": 200000
+      },
+      {
+        "name": "21122",
+        "price": 200000
+      },
+      {
+        "name": "21123",
+        "price": 200000
+      },
+      {
+        "name": "21124",
+        "price": 200000
+      },
+      {
+        "name": "21213 Niva",
+        "price": 200000
+      },
+      {
+        "name": "21214 Niva",
+        "price": 200000
+      },
+      {
+        "name": "21217 Niva",
+        "price": 200000
+      },
+      {
+        "name": "21218 Niva",
+        "price": 200000
+      },
+      {
+        "name": "2171 Priora",
+        "price": 200000
+      },
+      {
+        "name": "2172 Priora",
+        "price": 200000
+      },
+      {
+        "name": "2310",
+        "price": 200000
+      },
+      {
+        "name": "Revolution",
+        "price": 200000
+      },
+      {
+        "name": "21011",
+        "price": 200000
+      },
+      {
+        "name": "21013",
+        "price": 200000
+      },
+      {
+        "name": "21033",
+        "price": 200000
+      },
+      {
+        "name": "21043i",
+        "price": 200000
+      },
+      {
+        "name": "21044i",
+        "price": 200000
+      },
+      {
+        "name": "21051",
+        "price": 200000
+      },
+      {
+        "name": "21060",
+        "price": 200000
+      },
+      {
+        "name": "21074i",
+        "price": 200000
+      },
+      {
+        "name": "21083i",
+        "price": 200000
+      },
+      {
+        "name": "21093i",
+        "price": 200000
+      },
+      {
+        "name": "21096",
+        "price": 200000
+      },
+      {
+        "name": "21099i",
+        "price": 200000
+      },
+      {
+        "name": "21101i",
+        "price": 200000
+      },
+      {
+        "name": "21109",
+        "price": 200000
+      },
+      {
+        "name": "21120",
+        "price": 200000
+      },
+      {
+        "name": "21140",
+        "price": 200000
+      },
+      {
+        "name": "21150",
+        "price": 200000
+      },
+      {
+        "name": "21150i",
+        "price": 200000
+      },
+      {
+        "name": "21214i Niva",
+        "price": 200000
+      },
+      {
+        "name": "21310",
+        "price": 200000
+      },
+      {
+        "name": "21312",
+        "price": 200000
+      },
+      {
+        "name": "Largus",
+        "price": 200000
+      },
+      {
+        "name": "Granta",
+        "price": 200000
+      },
+      {
+        "name": "Kalina 2",
+        "price": 200000
+      },
+      {
+        "name": "Niva Urban",
+        "price": 200000
+      },
+      {
+        "name": "X-Ray",
+        "price": 200000
+      },
+      {
+        "name": "Vesta",
+        "price": 200000
+      },
+      {
+        "name": "Vesta SW",
+        "price": 200000
+      },
+      {
+        "name": "4x4",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "ГАЗ",
+
+    "models": [
+      {
+        "name": "13 Чайка",
+        "price": 200000
+      },
+      {
+        "name": "14",
+        "price": 200000
+      },
+      {
+        "name": "20",
+        "price": 200000
+      },
+      {
+        "name": "21",
+        "price": 200000
+      },
+      {
+        "name": "22",
+        "price": 200000
+      },
+      {
+        "name": "24",
+        "price": 200000
+      },
+      {
+        "name": "31",
+        "price": 200000
+      },
+      {
+        "name": "3110",
+        "price": 200000
+      },
+      {
+        "name": "51",
+        "price": 200000
+      },
+      {
+        "name": "52",
+        "price": 200000
+      },
+      {
+        "name": "53",
+        "price": 200000
+      },
+      {
+        "name": "66",
+        "price": 200000
+      },
+      {
+        "name": "67",
+        "price": 200000
+      },
+      {
+        "name": "69",
+        "price": 200000
+      },
+      {
+        "name": "Siber",
+        "price": 200000
+      },
+      {
+        "name": "M-20",
+        "price": 200000
+      },
+      {
+        "name": "ЗИМ",
+        "price": 200000
+      },
+      {
+        "name": "М1",
+        "price": 200000
+      },
+      {
+        "name": "2330",
+        "price": 200000
+      },
+      {
+        "name": "12 ЗИМ",
+        "price": 200000
+      },
+      {
+        "name": "20М",
+        "price": 200000
+      },
+      {
+        "name": "21М",
+        "price": 200000
+      },
+      {
+        "name": "21Р",
+        "price": 200000
+      },
+      {
+        "name": "21УС",
+        "price": 200000
+      },
+      {
+        "name": "2217",
+        "price": 200000
+      },
+      {
+        "name": "22171",
+        "price": 200000
+      },
+      {
+        "name": "22177",
+        "price": 200000
+      },
+      {
+        "name": "2401",
+        "price": 200000
+      },
+      {
+        "name": "2402",
+        "price": 200000
+      },
+      {
+        "name": "2410",
+        "price": 200000
+      },
+      {
+        "name": "2411",
+        "price": 200000
+      },
+      {
+        "name": "2434",
+        "price": 200000
+      },
+      {
+        "name": "2834 DJ",
+        "price": 200000
+      },
+      {
+        "name": "31013",
+        "price": 200000
+      },
+      {
+        "name": "3102",
+        "price": 200000
+      },
+      {
+        "name": "31022",
+        "price": 200000
+      },
+      {
+        "name": "310221",
+        "price": 200000
+      },
+      {
+        "name": "31029",
+        "price": 200000
+      },
+      {
+        "name": "3102i",
+        "price": 200000
+      },
+      {
+        "name": "3105",
+        "price": 200000
+      },
+      {
+        "name": "31105",
+        "price": 200000
+      },
+      {
+        "name": "3110i",
+        "price": 200000
+      },
+      {
+        "name": "3111",
+        "price": 200000
+      },
+      {
+        "name": "3221",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "ZAZ",
+
+    "models": [
+      {
+        "name": "1102 Таврия",
+        "price": 200000
+      },
+      {
+        "name": "1103",
+        "price": 200000
+      },
+      {
+        "name": "1105",
+        "price": 200000
+      },
+      {
+        "name": "1122",
+        "price": 200000
+      },
+      {
+        "name": "1125",
+        "price": 200000
+      },
+      {
+        "name": "1140",
+        "price": 200000
+      },
+      {
+        "name": "965",
+        "price": 200000
+      },
+      {
+        "name": "966",
+        "price": 200000
+      },
+      {
+        "name": "968",
+        "price": 200000
+      },
+      {
+        "name": "968M",
+        "price": 200000
+      },
+      {
+        "name": "Sens",
+        "price": 200000
+      },
+      {
+        "name": "Chance",
+        "price": 200000
+      },
+      {
+        "name": "110207",
+        "price": 200000
+      },
+      {
+        "name": "110307",
+        "price": 200000
+      },
+      {
+        "name": "110308",
+        "price": 200000
+      },
+      {
+        "name": "Дана",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "IZh",
+
+    "models": [
+      {
+        "name": "2125 Комби",
+        "price": 200000
+      },
+      {
+        "name": "2126 Орбита",
+        "price": 200000
+      },
+      {
+        "name": "2715",
+        "price": 200000
+      },
+      {
+        "name": "2717",
+        "price": 200000
+      },
+      {
+        "name": "412",
+        "price": 200000
+      },
+      {
+        "name": "49",
+        "price": 200000
+      },
+      {
+        "name": "Ода",
+        "price": 200000
+      },
+      {
+        "name": "21261",
+        "price": 200000
+      },
+      {
+        "name": "27171",
+        "price": 200000
+      },
+      {
+        "name": "21261 Fabula",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "Москвич",
+
+    "models": [
+      {
+        "name": "2125 Комби",
+        "price": 200000
+      },
+      {
+        "name": "2140",
+        "price": 200000
+      },
+      {
+        "name": "2141",
+        "price": 200000
+      },
+      {
+        "name": "2142",
+        "price": 200000
+      },
+      {
+        "name": "2335",
+        "price": 200000
+      },
+      {
+        "name": "2715",
+        "price": 200000
+      },
+      {
+        "name": "400",
+        "price": 200000
+      },
+      {
+        "name": "401",
+        "price": 200000
+      },
+      {
+        "name": "402",
+        "price": 200000
+      },
+      {
+        "name": "403",
+        "price": 200000
+      },
+      {
+        "name": "406",
+        "price": 200000
+      },
+      {
+        "name": "407",
+        "price": 200000
+      },
+      {
+        "name": "408",
+        "price": 200000
+      },
+      {
+        "name": "410",
+        "price": 200000
+      },
+      {
+        "name": "412",
+        "price": 200000
+      },
+      {
+        "name": "423",
+        "price": 200000
+      },
+      {
+        "name": "426",
+        "price": 200000
+      },
+      {
+        "name": "427",
+        "price": 200000
+      },
+      {
+        "name": "ASLK 2137",
+        "price": 200000
+      },
+      {
+        "name": "ASLK 2140",
+        "price": 200000
+      },
+      {
+        "name": "Князь Владимир",
+        "price": 200000
+      },
+      {
+        "name": "Святогор",
+        "price": 200000
+      },
+      {
+        "name": "Юрий Долгорукий",
+        "price": 200000
+      },
+      {
+        "name": "2137 Kombi",
+        "price": 200000
+      },
+      {
+        "name": "2138",
+        "price": 200000
+      },
+      {
+        "name": "434",
+        "price": 200000
+      },
+      {
+        "name": "Дуэт",
+        "price": 200000
+      },
+      {
+        "name": "Калита",
+        "price": 200000
+      },
+      {
+        "name": "2136 Kombi",
+        "price": 200000
+      },
+      {
+        "name": "2141-01",
+        "price": 200000
+      },
+      {
+        "name": "21412",
+        "price": 200000
+      },
+      {
+        "name": "214120",
+        "price": 200000
+      },
+      {
+        "name": "21412-01",
+        "price": 200000
+      },
+      {
+        "name": "2141-22",
+        "price": 200000
+      },
+      {
+        "name": "2141-45",
+        "price": 200000
+      },
+      {
+        "name": "21415",
+        "price": 200000
+      },
+      {
+        "name": "412 Э",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "UAZ",
+
+    "models": [
+      {
+        "name": "2206",
+        "price": 200000
+      },
+      {
+        "name": "3151",
+        "price": 200000
+      },
+      {
+        "name": "31512",
+        "price": 200000
+      },
+      {
+        "name": "31514",
+        "price": 200000
+      },
+      {
+        "name": "31519",
+        "price": 200000
+      },
+      {
+        "name": "3153",
+        "price": 200000
+      },
+      {
+        "name": "3159",
+        "price": 200000
+      },
+      {
+        "name": "3160",
+        "price": 200000
+      },
+      {
+        "name": "3162",
+        "price": 200000
+      },
+      {
+        "name": "3303",
+        "price": 200000
+      },
+      {
+        "name": "3741",
+        "price": 200000
+      },
+      {
+        "name": "3909",
+        "price": 200000
+      },
+      {
+        "name": "39094",
+        "price": 200000
+      },
+      {
+        "name": "3962",
+        "price": 200000
+      },
+      {
+        "name": "39625",
+        "price": 200000
+      },
+      {
+        "name": "469",
+        "price": 200000
+      },
+      {
+        "name": "Hunter",
+        "price": 200000
+      },
+      {
+        "name": "Patriot",
+        "price": 200000
+      },
+      {
+        "name": "23632 Pickup",
+        "price": 200000
+      },
+      {
+        "name": "315195 Hunter",
+        "price": 200000
+      },
+      {
+        "name": "3163 Patriot",
+        "price": 200000
+      },
+      {
+        "name": "2317",
+        "price": 200000
+      },
+      {
+        "name": "315108 Hunter",
+        "price": 200000
+      },
+      {
+        "name": "3164",
+        "price": 200000
+      },
+      {
+        "name": "23602",
+        "price": 200000
+      },
+      {
+        "name": "31512-010",
+        "price": 200000
+      },
+      {
+        "name": "31514-012",
+        "price": 200000
+      },
+      {
+        "name": "31519-010",
+        "price": 200000
+      },
+      {
+        "name": "31601",
+        "price": 200000
+      },
+      {
+        "name": "31602",
+        "price": 200000
+      },
+      {
+        "name": "31622",
+        "price": 200000
+      },
+      {
+        "name": "469Б",
+        "price": 200000
+      },
+      {
+        "name": "Pickup",
+        "price": 200000
+      },
+      {
+        "name": "Simbir",
+        "price": 200000
+      }
+    ]
+  },
+  {
+    "brand": "☀",
+
+    "models": [
+      {
+        "name": "eC6",
+        "price": 200000
+      },
+      {
+        "name": "eS6",
+        "price": 200000
+      },
+      {
+        "name": "eS8",
+        "price": 200000
+      },
+      {
+        "name": "eT7",
+        "price": 200000
+      }
+    ]
+  }
+]
 }
 
